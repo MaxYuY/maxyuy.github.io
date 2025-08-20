@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Arches</title>
+        <link rel = "stylesheet" href = styles.css>
+    </head>
+    <body>
+        <div id="navbar"></div>
+        <script>
+            fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
+        </script>
+        <h1 class = "title1">Arches National Park</h1>
+        <div class = "container">
+            
+            <p class="text3">Arches National Park is a mecca for its namesake sandstone arches, with over 
+                2000 of them in the stunning desert landscape in eastern Utah. The park's hiking is just as good 
+                as Zion, and with plenty of amazing arches to admire, this park is certainly a top tier 
+                national park in the U.S. 
+            </p>
+
+        </div>           
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_5086.JPG" class = "img3" style = "height: 350px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_49191.JPG" class = "img3" style = "height: 350px;"></div>
+        </div>
+        
+
+
+        <div class = "container">
+            
+            <p class="text3">There are 3 notable sections of Arches, with the first one being the Windows area, containing 4 stunning natural arches. 
+                First of which is Turret Arch (Left), which while stunning in itself, provides an awesome sunset view of 
+                the two Window Arches (center), which turn from orange to fiery red during dusk. The final arch, Double Arch (Right) can be
+                accessible from a different trail than the other two, but it is just as cool. What's special about this arch is that 
+                as its name suggests, this arch consists of 2 separate sandstone bridges, which just looks so cool from right below. 
+                The Windows section is also the closest of the 3 to the park's entrance, giving you the best introduction 
+                to the sheer natural beauty of Arches. 
+            </p>
+
+        </div>
+        <div class = "container">
+            
+            <div class = "imgtype3"><img src = "images/IMG_4918.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_4920.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_4959.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+
+
+        <div class = "container">
+            
+            <p class="text3">The Delicate Arch area consists of just one hike, but is certainly the best one in 
+                Arches. The hike is only a few miles round-trip, and is 100% worth it, especially in sunset where the 
+                arch turns to gorgeous red. With the gorgeous desert scenery all around, Delicate Arch 
+                certainly earns its title as one of the most iconic attractions of any national park.
+            </p> 
+
+        </div>
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/img_5069.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_5085.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+
+
+        <div class = "container">
+            
+            <p class="text3">While Delicate Arch is the single most iconic arch in the park, the Devils Garden area 
+                is home to the largest collection of these cool sandstone formations. This includes Landscape arch (Top left), 
+                one of the longest natural arches in the entire world, Double O Arch (Top center), with 2 sandstone bridges creating two O shaped openings, 
+                and Partition arch (Top right), whose higher elevation yields plenty of gorgeous desert views of the Devil's Garden. 
+                Aside from the natural arches, the scenery of Devils Garden hike itself is just as stunning, especially paired with the 
+                snowy mountains in the backdrop. I also got to see plenty of chipmunks on the trail and even a few Mule Deer (Bottom Right) 
+                at the trailhead, which was really cool. Ultimately, all three main sections of this park are equally unique and 
+                certainly make Arches one of the most revered natural wonders in the entire United States. 
+            </p> 
+
+        </div>
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/img_5007.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_5025.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_5047.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_5051.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_5033.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_5060.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+    </body>
+    <div id="footer"></div>
+    <script>
+        fetch('/footer.html').then(response => response.text()).then(data => {document.getElementById('footer').innerHTML = data;});
+    </script>
+</html>

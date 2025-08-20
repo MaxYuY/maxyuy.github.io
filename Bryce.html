@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bryce</title>
+        <link rel = "stylesheet" href = styles.css>
+    </head>
+    <body>
+        <div id="navbar"></div>
+        <script>
+            fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
+        </script>
+        <h1 class = "title1">Bryce Canyon National Park</h1>
+        <div class = "container">
+            
+            <p class="text3">Bryce Canyon is one of the best national parks for a day trip in my opinion, as it 
+                is rather compact compared to other Utah national parks. However, the scenery is stunning, 
+                as this huge natural amphitheater is dotted with sandstone hoodoos that make for a breathtaking visit.
+            </p>
+
+        </div>           
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_4222.JPG" class = "img3" style = "height: 350px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_4244.JPG" class = "img3" style = "height: 350px;"></div>
+        </div>
+        
+
+
+        <div class = "container">
+            
+            <p class="text3">Even without hiking, Bryce Canyon offers plenty of gorgeous views. Overlooks like 
+                Inspiration point (Left), Bryce point (center), and Sunrise point (right) bring you some awesome views of the 
+                natural amphitheater just meters from the road.
+            </p>
+
+        </div>
+        <div class = "container">
+            
+            <div class = "imgtype3"><img src = "images/IMG_4245.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_4260.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_4234.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+
+
+        <div class = "container">
+            
+            <p class="text3">On a longer visit, hiking into the canyon is a must. On my visit during early april, I 
+                hiked the Queens Garden Trail, which was still quite snowy at the time. Being within the 
+                towering hoodoo and desert landscape was surreal and certainly the highlight of my trip to this desert 
+                wonderland.
+            </p> 
+
+        </div>
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/img_4179.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_4180.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_4185.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_4212.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+       
+    </body>
+    <div id="footer"></div>
+    <script>
+        fetch('/footer.html').then(response => response.text()).then(data => {document.getElementById('footer').innerHTML = data;});
+    </script>
+</html>

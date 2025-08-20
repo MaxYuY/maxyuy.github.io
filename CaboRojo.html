@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cabo Rojo</title>
+        <link rel = "stylesheet" href = styles.css>
+    </head>
+    <body>
+        <div id="navbar"></div>
+        <script>
+            fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
+        </script>
+        <h1 class = "title1">Cabo Rojo</h1>
+        <div class = "container">
+            
+            <p class="text3"> Cabo Rojo is probably the most underrated and underappreciated natural attraction 
+                in Puerto Rico. With stunning cliff, beach, and ocean scenery as well as some landscapes you wouldn't 
+                usually find on a tropical island, Cabo Rojo is full of pleasant surprises and a great off the beaten path 
+                destination. 
+            </p>
+
+        </div>           
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_7031.JPG" class = "img3" style = "height: 350px; object-position: center 100%;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_7052.JPG" class = "img3" style = "height: 350px;"></div>
+        </div>
+        
+
+
+        <div class = "container">
+            
+            <p class="text3">There are two main parts of Cabo Rojo: The more inland salt flats and the 
+                coastal cliff scenery. The salt flats (top row) near Cabo Rojo are so cool, as you are treated with a 
+                sea of white across the normally green and forested landscape. The cliff area (middle row) is equally amazing, 
+                as these cliffs in the southwestern tip of Puerto Rico beautifully contrast with the turquoise blue sea. 
+                What's also cool about the area is the abundance of birds in the salt flats, including a 
+                flock of White Cheeked Pintails (bottom row) with their really cool reddish beaks that are just so cool to look at, 
+                not to mention that these ducks are just so adorable. Overall, with the contrast of scenery between the sea cliffs 
+                and salt flats as well as the birding opportunities, Cabo Rojo might as well be one of the best places to 
+                go to on the whole island, especially given that it is still relatively uncrowded.  
+            </p>
+
+        </div>
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_6954.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_6958.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_6956.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_7038.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_7021.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_7044.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_6993.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_6988.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_6989.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+    </body>
+    <div id="footer"></div>
+    <script>
+        fetch('/footer.html').then(response => response.text()).then(data => {document.getElementById('footer').innerHTML = data;});
+    </script>
+</html>
