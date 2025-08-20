@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>North Cascades</title>
+        <link rel = "stylesheet" href = styles.css>
+    </head>
+    <body>
+        <div id="navbar"></div>
+        <script>
+            fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
+        </script>
+         <h1 class = "title1">North Cascades National Park</h1>
+        <div class = "container">
+            
+            <p class="text3">North Cascades National Park is widely regarded as one of the most underrated 
+                national parks in the U.S, being full of scenic alpine views with crystal blue lakes below towering 
+                peaks. Thus, the park is a fantastic adventure destination that is sort of out of the beaten path. 
+            </p>
+
+        </div>           
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_5746.JPG" class = "img3" style = "height: 350px; object-position: center 90%;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_5736.JPG" class = "img3" style = "height: 350px; object-position: center 90%;"></div>
+        </div>
+        
+
+
+        <div class = "container">
+            
+            <p class="text3">The hiking opportunities in North Cascades are one of the best in the U.S. I did the Thunder Knob Trail on my visit, 
+                leading to views overlooking Diablo Lake, one of the bluest lakes I've ever seen. I also got to see 
+                a Grouse (right) on the trail which was really cool too. 
+            </p>
+
+        </div>
+        <div class = "container">
+            
+            <div class = "imgtype3"><img src = "images/IMG_5716.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_5730.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_5706.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+
+        <div class = "container">
+            
+            <p class="text3">The viewpoints of North Cascades are just as beautiful, with my favorites being 
+                the beaches on the shores of Diablo Lake (left) and the Diablo Lake Viewpoint (middle and right), 
+                which is perfect for sunset views of this amazing national park and natural wonder. 
+            </p>
+
+        </div>
+
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_5739.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_5741.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_5747.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+
+       
+    </body>
+    <div id="footer"></div>
+    <script>
+        fetch('/footer.html').then(response => response.text()).then(data => {document.getElementById('footer').innerHTML = data;});
+    </script>
+</html>
