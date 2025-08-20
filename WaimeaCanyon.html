@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Waimea Canyon</title>
+        <link rel = "stylesheet" href = styles.css>
+    </head>
+    <body>
+        <div id="navbar"></div>
+        <script>
+            fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
+        </script>
+        <h1 class = "title1">Waimea Canyon</h1>
+        <div class = "container">
+            
+            <p class="text3">Waimea Canyon on the island of Kauai is simply beautiful, and with its colorful scenery and its gorgeous views, 
+                it's no wonder why it's called the Grand Canyon of the Pacific and one of the best places to visit on the 
+                entire island and all of Hawaii. 
+            </p>
+
+        </div>           
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_0580.JPG" class = "img3" style = "height: 350px; object-position: center 100%;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_0590.JPG" class = "img3" style = "height: 350px; object-position: center 100%;"></div>
+        </div>
+        
+
+
+        <div class = "container">
+            
+            <p class="text3">The most popular and my favorite thing I did at Waimea Canyon was just simply admiring the 
+                canyon from the overlooks. Viewpoints like the main Waimea Canyon and Pu'u Ka Pele Lookouts bring 
+                stunning views of the canyon as well as the Waipo'o Falls in the distance: simply magical. 
+            </p>
+
+        </div>
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_0598.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_0502.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_0521.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+
+        <div class = "container">
+            
+            <p class="text3">Besides the views of the gorgeous canyon, the other cool place at the Waimea Canyon 
+                State Park is the Red Dirt Waterfall area, which looks otherworldly up close, especially during 
+                the evening hours when the landscape turns into a fiery red, making the canyon scenery in this park even 
+                more magical to look at and admire. 
+            </p>
+
+        </div>
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_0808.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_0811.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_0822.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+    </body>
+    <div id="footer"></div>
+    <script>
+        fetch('/footer.html').then(response => response.text()).then(data => {document.getElementById('footer').innerHTML = data;});
+    </script>
+</html>

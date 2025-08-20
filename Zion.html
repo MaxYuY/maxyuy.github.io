@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zion</title>
+        <link rel = "stylesheet" href = styles.css>
+    </head>
+    <body>
+        <div id="navbar"></div>
+        <script>
+            fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
+        </script>
+        <h1 class = "title1">Zion National Park</h1>
+        <div class = "container">
+            
+            <p class="text3">Zion National Park in Utah is the crowl jewel of Utah, home to one of the most beautiful 
+                canyons in the world. Located in the southwest part of the state, Zion is sort of unique among all canyons, as 
+                you start at the bottom of the canyon and hike up to viewpoints instead of vice-versa. Plus, the canyon is 
+                so colorful, rivaling even the Grand Canyon in scenery and natural beauty.
+            </p>
+
+        </div>           
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_3844.JPG" class = "img3" style = "height: 350px; object-position: center 75%;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_4018.JPG" class = "img3" style = "height: 350px; object-position: center 18%;"></div>
+        </div>
+        
+
+
+        <div class = "container">
+            
+            <p class="text3">The park has two sections: The outer part of the canyon which is accessible by 
+                car and the inner part of the canyon which is only accessible by shuttle bus. The outer part of 
+                the canyon is beautiful, with hikes like the Pa'rus Trail (Left) leading to spectacular views 
+                of the Watchman (Center). Another brilliant hike at the outer part of the canyon is the Canyon Overlook Trail (Right), 
+                one of the most scenically beautiful viewpoints of the canyon below. The outer canyon is simply gorgeous and 
+                gives you a great introduction to the scenery Zion has to offer. 
+            </p>
+
+        </div>
+        <div class = "container">
+            
+            <div class = "imgtype3"><img src = "images/IMG_3862.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_3877.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_3887.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+
+
+        <div class = "container">
+            
+            <p class="text3">The Inner part of Zion canyon is absolutely stunning, with plenty of hikes and viewpoints to 
+                treat yourself with. Both the Riverside Walk (Top Left, to the Narrows hike) and the Emerald Pools Trail (Top Right) 
+                bring some of the best views of the canyon from the bottom. There are also plenty of hikes that bring you 
+                higher up on the canyon wall, including my favorite trail I did in Zion, the trail to Scout Lookout (Bottom row) and Angels Landing, 
+                as you will be in awe of the canyon scenery in all directions. With all the amazing trail and lookouts, Zion 
+                takes the crown for my favorite national park for hiking, as well as containing some of the most beautiful views in all of the US. 
+            </p> 
+
+        </div>
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/img_3944.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_3990.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_4046.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_4069.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+
+
+        <div class = "container">
+            
+            <p class="text3">With its top-notch landscapes, there are some cool wildlife species that also call the park home. 
+                This includes Mule Deer (Left), which I saw near the visitor center, as well as tons of adorable Ground Squirrels (Center and Right), 
+                which I saw many of on the Riverside Walk. With other species in the park like Wild Turkeys, Bighorn sheep, and chipmunks, 
+                Zion has to be the best national park in Utah for wildlife and is certainly nice to see in such stunning desert scenery. 
+            </p> 
+
+        </div>
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/img_3912.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_3954.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_3972.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+    </body>
+    <div id="footer"></div>
+    <script>
+        fetch('/footer.html').then(response => response.text()).then(data => {document.getElementById('footer').innerHTML = data;});
+    </script>
+</html>

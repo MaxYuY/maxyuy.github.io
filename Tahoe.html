@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lake Tahoe</title>
+        <link rel = "stylesheet" href = styles.css>
+    </head>
+    <body>
+        <div id="navbar"></div>
+        <script>
+            fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
+        </script>
+         <h1 class = "title1">Lake Tahoe</h1>
+        <div class = "container">
+            
+            <p class="text3">Located on the California-Nevada border, Lake Tahoe is one of the most famous lakes 
+                in the Western United States, with plenty of opportunities for adventure within the breathtaking 
+                views of the Sierra Nevada mountains. 
+            </p>
+
+        </div>           
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_9897.JPG" class = "img3" style = "height: 350px; object-position: center 100%;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_9914.JPG" class = "img3" style = "height: 350px;"></div>
+        </div>
+        
+
+
+        <div class = "container">
+            
+            <p class="text3">During winter, skiing at Lake Tahoe is basically a must, with my favorite resort being 
+                Heavenly in both Nevada and California, which is by far the most scenic resort I've ever went to. The resort is unique, with views of 
+                Lake Tahoe on one side and the barren Nevadan desert on the other, and the sheer contrast between the 
+                two vastly different landscape was just awesome to see from Heavenly. 
+            </p>
+
+        </div>
+        <div class = "container">
+            
+            <div class = "imgtype3"><img src = "images/IMG_9838.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_9844.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_9974.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+
+        <div class = "container">
+            
+            <p class="text3">Emerald Bay state park on the shores of Lake Tahoe on the California side is absolutely beautiful, with 
+                beautiful viewpoints of the bay as well as great hiking such as the Eagle Falls Trail. Seeing 
+                the giant lake with snowy mountains in the background is always surreal and this state park is 
+                certainly a must-visit when you're in Lake Tahoe.
+            </p>
+
+        </div>
+
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_9871.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_9875.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_9905.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+
+        <div class = "container">
+            
+            <p class="text3">The Nevada side of Lake Tahoe is equally beautiful, with the highlights including 
+                Sand Harbor State Park and Memorial Point. Just like Emerald Bay, the crystal blue waters of the lake in front of the
+                snowy Sierra Nevada mountains in both places are so cool in my opinion and another stunning destination if you're ever 
+                at Lake Tahoe.  
+            </p>
+
+        </div>
+
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_9942.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_9950.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_9951.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+    </body>
+    <div id="footer"></div>
+    <script>
+        fetch('/footer.html').then(response => response.text()).then(data => {document.getElementById('footer').innerHTML = data;});
+    </script>
+</html>

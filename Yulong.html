@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jade Dragon Snow Mountain</title>
+        <link rel = "stylesheet" href = styles.css>
+    </head>
+    <body>
+        <div id="navbar"></div>
+        <script>
+            fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
+        </script>
+        <h1 class = "title1">Jade Dragon Snow Mountain</h1>
+        <div class = "container">
+            
+            <p class="text3">Jade Dragon Snow Mountain, also known as Yulong Snow Mountain, is one of the most 
+                awesome adventure destinations not just in China, but in the entire world. Located in the Yunnan 
+                Province just north of Lijiang, from the snowy mountain itself and the gorgeous alpine valley below,
+                the mountain is one of the crown jewels of the province and certainly 
+                one of my favorite destinations in this beautiful country.  
+            </p>
+
+        </div>           
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_4647.JPG" class = "img3" style = "height: 350px; object-position: center 100%;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_4735.JPG" class = "img3" style = "height: 350px;"></div>
+        </div>
+        
+
+
+        <div class = "container">
+            
+            <p class="text3">The Glacier Park in Yulong Snow Mountain is home to some of the highest elevation 
+                viewpoints in the entire world! Located between 4500-4680 meters above sea level, Glacier Park is accessible 
+                by cable car and is absolutely stunning, bringing you some of the greatest and craziest views I've ever seen of the snowy mountain wall of Mt. Yulong, 
+                certainly an unforgettable experience in this winter wonderland. 
+            </p>
+
+        </div>
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_4677.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_2924.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_47781.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+
+        <div class = "container">
+            
+            <p class="text3">The beautiful Blue Moon Valley right below Jade Dragon Snow Mountain is absolutely 
+                breathtaking. Not only do you get crazy good views of the massive mountain, the lakes of Blue 
+                Moon Valley have a magical turquoise hue that fits perfectly with the mountain scenery. With the 
+                abundance of stunning Common Pochard Ducks (Bottom two rows) with its beautiful plumage, it certainly makes 
+                Yulong Snow Mountain and the its surroundings one of the best and most naturally spectacular places I've ever been to in all of China. 
+            </p>
+
+        </div>
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_4820.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_4857.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_4812.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_4816.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_4843.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_4847.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_4851.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_4853.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+    </body>
+    <div id="footer"></div>
+    <script>
+        fetch('/footer.html').then(response => response.text()).then(data => {document.getElementById('footer').innerHTML = data;});
+    </script>
+</html>

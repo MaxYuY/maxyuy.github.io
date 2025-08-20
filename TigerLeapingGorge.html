@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tiger Leaping Gorge</title>
+        <link rel = "stylesheet" href = styles.css>
+    </head>
+    <body>
+        <div id="navbar"></div>
+        <script>
+            fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
+        </script>
+        <h1 class = "title1">Tiger Leaping Gorge</h1>
+        <div class = "container">
+            
+            <p class="text3">One of the largest and deepest canyons in the world, Yunnan's Tiger Leaping Gorge 
+                is one of the grandest places I've ever been to, a place that makes anyone feel small compare to 
+                the grandeur of mother nature and certainly one of the greatest places to enjoy the beauty of 
+                this planet. 
+
+            </p>
+
+        </div>           
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_4919.JPG" class = "img3" style = "height: 350px; object-position: center 100%;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_4981.JPG" class = "img3" style = "height: 350px;"></div>
+        </div>
+        
+
+
+        <div class = "container">
+            
+            <p class="text3">I only had a few hours here in the gorge, and still enjoyed every moment of it. I 
+                did the Middle Tiger Leaping Gorge hike, and between the views of the snowy mountains high above us 
+                carving into this narrow canyon to the scenes of the rushing Jinsha River up close, even this short hike makes Tiger Leaping 
+                Gorge totally worth going out of your way to come here. During the hike, I got to see these adorable squirrels (bottom row), 
+                making my Tiger Leaping Gorge experience even more magical. 
+            </p>
+
+        </div>
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_4986.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_4996.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_5000.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_5024.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_5026.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_5028.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+
+       
+    </body>
+    <div id="footer"></div>
+    <script>
+        fetch('/footer.html').then(response => response.text()).then(data => {document.getElementById('footer').innerHTML = data;});
+    </script>
+</html>

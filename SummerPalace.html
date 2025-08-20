@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Summer Palace</title>
+        <link rel = "stylesheet" href = styles.css>
+    </head>
+    <body>
+        <div id="navbar"></div>
+        <script>
+            fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
+        </script>
+        <h1 class = "title1">Summer Palace</h1>
+        <div class = "container">
+            
+            <p class="text3">The Summer Palace is one of Beijing's most iconic attractions. Located in the 
+                northwestern part of the city, the palace was the historical summer home of the Chinese emperor. 
+                Now though, the palace is still beautiful in all times of the year, set right above the stunning 
+                Kunming Lake. The entire scenery of the park is breathtaking and is certainly a must-visit when 
+                you're in Beijing.
+            </p>
+
+        </div>           
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_5072.JPG" class = "img3" style = "height: 350px; object-position: center 100%;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_6327.JPG" class = "img3" style = "height: 350px;"></div>
+        </div>
+        
+
+
+        <div class = "container">
+            
+            <p class="text3">Both on my summer visit in 2023 (Top) and my winter visit in 2024 (Bottom), I 
+                had so many great experiences at the Summer Palace. Walking around the park exploring 
+                the stunning lakeside and temple views and relics of ancient China was so cool, 
+                and so was taking a boat onto the lake during the summer for some up close views of the massive 
+                temple and the 17-hole bridge (Top right), a must-do during that time of the year. In winter, seeing the lake freeze up turned 
+                the park into a winter wonderland, with a different but equally magical feeling around the Summer Palace. 
+                Ultimately, the Summer Palace is certainly worth a visit despite the crowds, with plenty of great things 
+                to see all the time. 
+            </p>
+
+        </div>
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_6320.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_6137.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_6240.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_5094.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_5096.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_5097.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+
+        <div class = "container">
+            
+            <p class="text3">The birdlife in Kunming Lake, the lake below the Summer Palace, is abundant, but 
+                my highlight has to be viewing these adorable ducklings on our boat ride while admiring the 
+                palace scenery. These cute baby ducklings would swim right up to the boat, giving me some 
+                epic shots of the baby bird and its mother as well as an absolutely unforgettable experience, 
+                making the already grand scenery of the Summer Palace even more awesome when visiting.
+            </p>
+
+        </div>
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_6276.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_6221.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_6217.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+    </body>
+    <div id="footer"></div>
+    <script>
+        fetch('/footer.html').then(response => response.text()).then(data => {document.getElementById('footer').innerHTML = data;});
+    </script>
+</html>
