@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Monterey</title>
+        <link rel = "stylesheet" href = styles.css>
+    </head>
+    <body>
+        <div id="navbar"></div>
+        <script>
+            fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
+        </script>
+         <h1 class = "title1">Monterey Bay</h1>
+        <div class = "container">
+            
+            <p class="text3">Monterey Bay in the central coast of California is a haven for aquatic wildlife, 
+                with plenty of diverse creatures calling the bay and its surroundings home. I took a whale watching/wildlife 
+                tour from Monterey and was certainly in awe at how much wildlife there was here. 
+            </p>
+
+        </div>           
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_0221.JPG" class = "img3" style = "height: 350px; object-position: center 100%;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_0235.JPG" class = "img3" style = "height: 350px;"></div>
+        </div>
+        
+
+
+        <div class = "container">
+            
+            <p class="text3">Among the many wildlife seen in Monterey, Sea Otters (Top Left, top center) were 
+                by far my favorite as they were just adorable. On the tour, I got to see many Sea Otters, some 
+                with their pups, hanging out in the bay, certainly the cutest wildlife found in Monterey. 
+                Some other notable aquatic mammals include Harbor Seals at Elkhorn Slough (Bottom Left, Bottom center), 
+                just chilling and relaxing comfortably on the shores of the bay, 
+                as well as tons of California sea lions (Top right, bottom right), which were literally everywhere in Monterey Bay and so 
+                cool to watch.
+            </p>
+
+        </div>
+        <div class = "container">
+            
+            <div class = "imgtype3"><img src = "images/IMG_0113.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_0119.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_0224.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_0031.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_0029.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_0229.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+
+        <div class = "container">
+            
+            <p class="text3">On the whale watching tour, I got to spot a pod of Risso's dolphins (left) as well 
+                as a Humpback whale and her calf (center, right), which the tour spent over an hour with. The amount of
+                diverse aquatic wildlife here is just astonishing and indisbutably the #1 highlight of Monterey Bay. 
+            </p>
+
+        </div>
+        <div class = "container">
+            
+            <div class = "imgtype3"><img src = "images/IMG_0134.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_0154.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_0171.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+
+    </body>
+    <div id="footer"></div>
+    <script>
+        fetch('/footer.html').then(response => response.text()).then(data => {document.getElementById('footer').innerHTML = data;});
+    </script>
+</html>

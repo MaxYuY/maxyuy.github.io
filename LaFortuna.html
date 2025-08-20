@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>La Fortuna</title>
+        <link rel = "stylesheet" href = styles.css>
+    </head>
+    <body>
+        <div id="navbar"></div>
+        <script>
+            fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
+        </script>
+        <h1 class = "title1">La Fortuna</h1>
+        <div class = "container">
+            
+            <p class="text3">La Fortuna is set under the almost symmetrical Arenal Volcano, a simply beautiful 
+                rainforest backdrop. It is a hub for both adventure and wildlife, with plenty to do in the are 
+                around the small town, another gorgeous place to visit in Costa Rica. 
+            </p>
+
+        </div>           
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_0147.JPG" class = "img3" style = "height: 350px; object-position: center 40%;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_0496.JPG" class = "img3" style = "height: 350px;"></div>
+        </div>
+        
+        <div class = "container">
+            
+            <p class="text3">I had limited time during my visit here, but one of the best places for adventure 
+                has to be the Mistico Arenal Hanging Bridges, a set of suspension bridges that overlooks both the 
+                rainforest canopy as well as the stunning Arenal volcano in the backdrop, a really cool and unique 
+                attraction that I certainly enjoyed visiting.
+            </p>
+
+        </div>
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_0149.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_0488.JPG" class = "img3" style = "height: 400px; object-position: center 60%;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_0511.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+
+
+        <div class = "container">
+            
+            <p class="text3">The wildlife in La Fortuna and its surrounding is just as abundant as the spectacular rainforest 
+                scenery. My hotel in La Fortuna offered a sloth tour to the nearby rainforest, which yielded sightings of 
+                both 3 toed sloths (top left, top center) and 2-toed sloths (top right), with both species lounging comfortably up in 
+                trees. Some birds I got to see on the tour included an owl (bottom left) and many toucans (bottom center), 
+                which along with the sloths were amazing to see up close. Even better, I got to see some Coati (bottom right) on the side of the road 
+                on the shores of Lake Arenal, a perfect end to my visit to La Fortuna, a magical rainforest and wildlife wonderland here in Costa Rica. 
+            </p>
+
+        </div>
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_0402.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_0436.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_0420.JPG" class = "img3" style = "height: 400px; object-position: center 10%;"></div>
+            
+        </div>
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_0448.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_0455.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_0523.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+    </body>
+    <div id="footer"></div>
+    <script>
+        fetch('/footer.html').then(response => response.text()).then(data => {document.getElementById('footer').innerHTML = data;});
+    </script>
+</html>

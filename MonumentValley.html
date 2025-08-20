@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Monument Valley</title>
+        <link rel = "stylesheet" href = styles.css>
+    </head>
+    <body>
+        <div id="navbar"></div>
+        <script>
+            fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
+        </script>
+        <h1 class = "title1">Monument Valley</h1>
+        <div class = "container">
+            
+            <p class="text3">Arizona's Monument Valley is iconic, home to some peculiar desert formations like 
+                Buttes, Mesas, and spires, all painting a beautiful and stunning picture of the valley that 
+                is certainly worth seeing in all its glory. 
+            </p>
+
+        </div>           
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_4806.JPG" class = "img3" style = "height: 350px; object-position: center 100%;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_4819.JPG" class = "img3" style = "height: 350px;"></div>
+        </div>
+        
+
+
+        <div class = "container">
+            
+            <p class="text3">The main attraction of Monument Valley has to be the scenic drive, taking you past 
+                a variety of different desert viewpoints and tons of magical scenery that simply looks awesome from up close. Thus, Monument Valley is certainly worth going out 
+                of the way to visit, especially considering how surreal it is to be standing within such gorgeous 
+                and otherworldly landscapes. 
+            </p>
+
+        </div>
+        <div class = "container">
+            
+            <div class = "imgtype3"><img src = "images/IMG_4766.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_4776.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_4778.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_4792.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_4813.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_4826.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+    </body>
+    <div id="footer"></div>
+    <script>
+        fetch('/footer.html').then(response => response.text()).then(data => {document.getElementById('footer').innerHTML = data;});
+    </script>
+</html>
