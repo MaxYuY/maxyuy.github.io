@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chengdu</title>
+        <link rel = "stylesheet" href = styles.css>
+    </head>
+    <body>
+        <div id="navbar"></div>
+        <script>
+            fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
+        </script>
+        <h1 class = "title1">Chengdu</h1>
+        <div class = "container">
+            
+            <p class="text3">The city of Chengdu is one of my favorite cities in the world, and the symbol of 
+                the city in Sichuan is one of my favorite animals, the Panda. Thus, seeing the Pandas are by 
+                far the highlights of the city and makes Chengdu the Panda capital of the world. 
+
+            </p>
+
+        </div>           
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_6713.JPG" class = "img3" style = "height: 350px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_6726.JPG" class = "img3" style = "height: 350px;"></div>
+        </div>
+        
+
+
+        <div class = "container">
+            
+            <p class="text3">There are 4 Panda bases around Chengdu, and the biggest one is located in the center of the 
+                city. This base in downtown Chengdu is home to over 100 adorable pandas (top row), which I witnessed
+                playing around and eating, one of the cutest things I've ever seen. The base also 
+                houses other animals like Red Pandas (Bottom left, bottom center) as well as majestic Black swans (bottom right) 
+                that make the Panda base stand out even more and Chengdu a highlight city in China. 
+            </p>
+
+        </div>
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_6778.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_6782.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_6720.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_6582.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_6596.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_6630.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+
+        
+    </body>
+    <div id="footer"></div>
+    <script>
+        fetch('/footer.html').then(response => response.text()).then(data => {document.getElementById('footer').innerHTML = data;});
+    </script>
+</html>

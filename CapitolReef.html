@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Capitol Reef</title>
+        <link rel = "stylesheet" href = styles.css>
+    </head>
+    <body>
+        <div id="navbar"></div>
+        <script>
+            fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
+        </script>
+        <h1 class = "title1">Capitol Reef National Park</h1>
+        <div class = "container">
+            
+            <p class="text3">Centered around the Waterpocket Fold, Capitol Reef National Park is widely considered 
+                as one of the United States' most underrated national parks, containing unique desert scenery found no where 
+                else on earth. That said, the park is certainly worth a visit, and while I only did a drive-by, 
+                I highly recommend a longer visit as there is plenty of things to discover in this magical park.
+            </p>
+
+        </div>           
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_4454.JPG" class = "img3" style = "height: 350px; object-position: center 100%;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_4469.JPG" class = "img3" style = "height: 350px;"></div>
+        </div>
+        
+
+
+        <div class = "container">
+            
+            <p class="text3">The scenic drive in Capitol Reef is well worth it if you don't have much time in the park 
+                like I did. The Capitol Gorge area (Left and center) is extremely impressive, as you are surrounded by 
+                narrow canyon walls on both sides. The scenery is extremely otherworldly, as the desert landscape 
+                is sort-of slanted due to the Waterpocket Fold, certainly really cool to see in person. 
+            </p>
+
+        </div>
+        <div class = "container">
+            
+            <div class = "imgtype3"><img src = "images/IMG_4494.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_4534.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_4480.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+
+
+        <div class = "container">
+            
+            <p class="text3">Capitol Reef also has plenty of gorgeous viewpoints just off the road, with the most 
+                famous being Panorama Point and the Goosenecks Overlook, both being best during sunset. The viewpoints 
+                and scenic drives are ultimately just scratching the surface of what Capitol Reef has to offer and I 
+                certainly need to come back to appreciate this unique geological landform in all its glory.
+            </p> 
+
+        </div>
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_4569.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_4563.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_4457.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+
+        
+    </body>
+    <div id="footer"></div>
+    <script>
+        fetch('/footer.html').then(response => response.text()).then(data => {document.getElementById('footer').innerHTML = data;});
+    </script>
+</html>
