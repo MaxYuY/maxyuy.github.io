@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Great Smoky Mountains</title>
+        <link rel = "stylesheet" href = styles.css>
+    </head>
+    <body>
+        <div id="navbar"></div>
+        <script>
+            fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
+        </script>
+        <h1 class = "title1">Great Smoky Mountains National Park</h1>
+        <div class = "container">
+            
+            <p class="text3">Great Smoky Mountains National Park in both Tennessee and North Carolina is the most 
+                visited national park in the U.S, and its no wonder why. From gorgeous mountain and valley views to 
+                great wildlife opportunities, this park is one of my favorites and is certainly worth a visit.
+            </p>
+
+        </div>           
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_3283.JPG" class = "img3" style = "height: 350px; object-position: center 75%;"></div>
+            <div class = "imgtype3"><img src = "images/DSC01093.JPG" class = "img3" style = "height: 350px; object-position: center 80%;"></div>
+        </div>
+        
+
+
+        <div class = "container">
+            
+            <p class="text3">The Smokies are home to some fantastic sightseeing opportunities. While there are 
+                plenty of great places to visit here, my favorite has to be Cades Cove (Left), a beautiful emerald green valley 
+                that's home to plenty of wildlife (see below). The Newfound Gap road (Center) and Clingmans Dome brings you to 
+                some of the most scenic mountain views, which are sometimes covered in a gorgeous layer of fog ("Smoke"). 
+                The waterfalls here are also really cool, like Abrams Falls (Right) in Cades Cove as well as Laurel Falls. 
+                While certainly not as impressive as parks in the west, the Smokies is still a great place to go
+                if you want to enjoy nature. 
+            </p>
+
+        </div>
+        <div class = "container">
+            
+            <div class = "imgtype3"><img src = "images/DSC01150.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/DSC01017.JPG" class = "img3" style = "height: 400px; object-position: center 100%;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_3398.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+
+
+        <div class = "container">
+            
+            <p class="text3">What the Smokies lack in top-notch scenery, they certainly make up for in wildlife, specifically, Black Bears. 
+                This park is firmly in 2nd place in terms of bear sightings, only behind Yellowstone, and I saw over 
+                20 of them over just a 3-day visit, with all of them occuring in Cades Cove on the Tennessee side. My favorite, by far, has to be a mother bear and her 4 Cubs (Top Row) hanging 
+                out in the woods, which was simply adorable to watch from a distance. This is the most bear cubs I've ever seen, and 
+                it was so cute to watch them climb up and down trees under the protection of their mother. Some other 
+                notable bear sightings was a large bear crossing the road (Bottom Left) and another adorable bear (Bottom Center, bottom right) feasting on 
+                berries and nuts up in a tree. With countless other notable bear encounters I had in the park and Cades Cove, 
+                the Smokies certainly is one of the best parks for bears and you're almost guaranteed to find them
+                if you come in dawn and dusk. Combining the bear haven of Cades Cove with the plenty of other sights in the 
+                Smokies certainly makes it a must-visit park in my opinion.
+            </p> 
+
+        </div>
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/DSC01086.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/DSC01096.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/DSC01091.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_3391.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_3443.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_3445.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+    </body>
+    <div id="footer"></div>
+    <script>
+        fetch('/footer.html').then(response => response.text()).then(data => {document.getElementById('footer').innerHTML = data;});
+    </script>
+</html>
