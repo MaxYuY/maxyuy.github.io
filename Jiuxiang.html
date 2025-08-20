@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jiuxiang</title>
+        <link rel = "stylesheet" href = styles.css>
+    </head>
+    <body>
+        <div id="navbar"></div>
+        <script>
+            fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
+        </script>
+        <h1 class = "title1">Jiuxiang</h1>
+        <div class = "container">
+            
+            <p class="text3">The Jiuxiang Scenic area near Kunming in the Yunnan province is home to some of the most 
+                amazing caves and karst scenery in China. The park has the whole package: Besides the massive caves, 
+                I was treated to plenty of cool river and canyon-like scenery making it so worth visiting.
+
+            </p>
+
+        </div>           
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_2269.jpg" class = "img3" style = "height: 350px; object-position: center 100%;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_2296.JPG" class = "img3" style = "height: 350px;"></div>
+        </div>
+        
+
+
+        <div class = "container">
+            
+            <p class="text3">On my visit, to get to the caves, I had to take two boat rides down the scenic 
+                Maitian River followed by a short hike, which for both I was surrounded by some amazing karst and river 
+                scenery in itself. The caves were obviously the highlight, with tons of unique and grand formations and 
+                even a waterfall inside, making Jiuxiang an place and experience that I'll never forget and one of the 
+                most underrated and uncrowded natural wonders I've been to in China.  
+            </p>
+
+        </div>
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_2274.jpg" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_2277.jpg" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_2308.jpg" class = "img3" style = "height: 400px;"></div>
+        </div>
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_2297.jpg" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_2298.jpg" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_2300.jpg" class = "img3" style = "height: 400px;"></div>
+        </div>
+        
+    </body>
+    <div id="footer"></div>
+    <script>
+        fetch('/footer.html').then(response => response.text()).then(data => {document.getElementById('footer').innerHTML = data;});
+    </script>
+</html>
