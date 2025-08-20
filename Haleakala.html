@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Haleakala</title>
+        <link rel = "stylesheet" href = styles.css>
+    </head>
+    <body>
+        <div id="navbar"></div>
+        <script>
+            fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
+        </script>
+        <h1 class = "title1">Haleakala National Park</h1>
+        <div class = "container">
+            
+            <p class="text3">Haleakala National Park in Maui is one of the most otherworldly places I've ever been to, 
+                centered around the namesake volcano that's over 3000 meters above sea level. The scenery at the 
+                top of Haleakala is simply breathtaking and makes the park one of my favorite places on Maui. 
+            </p>
+
+        </div>           
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_9469.JPG" class = "img3" style = "height: 350px; object-position: center 100%;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_9516.JPG" class = "img3" style = "height: 350px;"></div>
+        </div>
+        
+
+
+        <div class = "container">
+            
+            <p class="text3">What makes Haleakala so unique and out-of-this-world is the Haleakala Crater accessed 
+                via the Sliding Sands Trail (top row), a brilliant volcanic landscape that's the closest thing you can get 
+                to Mars here on Earth. Within the barren but stunning scenery,  I got to  
+                see a whole flock of the rare and beautiful Hawaiian Geese (bottom row) near the summit of Haleakala, 
+                making the gorgeous park and its views even more amazing. 
+            </p>
+
+        </div>
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_9498.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_9494.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_9511.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+        <div class = "container">
+            <div class = "imgtype3"><img src = "images/IMG_9544.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_9542.JPG" class = "img3" style = "height: 400px;"></div>
+            <div class = "imgtype3"><img src = "images/IMG_9567.JPG" class = "img3" style = "height: 400px;"></div>
+        </div>
+    </body>
+    <div id="footer"></div>
+    <script>
+        fetch('/footer.html').then(response => response.text()).then(data => {document.getElementById('footer').innerHTML = data;});
+    </script>
+</html>

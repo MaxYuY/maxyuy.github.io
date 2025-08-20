@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel = "stylesheet" href = styles.css>
+        
+    </head>
+    
+    <body>
+        <div id="navbar"></div>
+        <script>
+            fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
+        </script>
+    
+        <!--explore--> 
+        <p class = "title1">EXPLORE</p>
+        <div class = "container2">
+            <div class = "card">
+                <div class = "imgtype2"><img src = "images/IMG_4918.JPG" class = "img2"></div>
+                <div class = "container3">
+                    <a href = "Arches.html"><b>Arches National Park</b></a>
+                    <p>Eastern Utah</p>
+                </div>    
+            </div>
+
+            <div class = "card">
+                <div class = "imgtype2"><img src = "images/IMG_8564.JPG" class = "img2"></div>
+                <div class = "container3">
+                    <a href = "RockyMountain.html"><b>Rocky Mountain</b></a>
+                    <p>Central Colorado</p>
+                </div>
+            </div>
+
+            <div class = "card">
+                <div class = "imgtype2"><img src = "images/IMG_6804.JPG" class = "img2"></div>
+                <div class = "container3">
+                    <a href = "Jiuzhaigou.html"><b>Jiuzhaigou</b></a>
+                    <p>Sichuan, China</p>
+                </div>
+            </div>
+
+            <div class = "card">
+                <div class = "imgtype2"><img src = "images/IMG_0147.JPG" class = "img2"></div>
+                <div class = "container3">
+                    <a href = "LaFortuna.html"><b>La Fortuna</b></a>
+                    <p>Costa Rica</p>
+                </div>
+            </div>
+
+        </div>
+        <!--recent places-->
+        <p class = "explore2">Recent Places</p>
+        <div class = "container4">
+            <div class = "card">
+                <div class = "imgtype2"><img src = "images/IMG_67131.JPG" class = "img2" style = "object-position: center 90%;"></div>
+                <div class = "container3">
+                    <a href = "MtRainier.html"><b>Mt. Rainier NP</b></a>
+                    <p>Washington State</p>
+                </div>    
+            </div>
+
+            <div class = "card">
+                <div class = "imgtype2"><img src = "images/IMG_6405.JPG" class = "img2"></div>
+                <div class = "container3">
+                    <a href = "VancouverIsland.html"><b>Vancouver Island</b></a>
+                    <p>British Columbia, Canada</p>
+                </div>
+            </div>
+
+            <div class = "card">
+                <div class = "imgtype2"><img src = "images/IMG_5776.JPG" class = "img2"></div>
+                <div class = "container3">
+                    <a href = "Vancouver.html"><b>Vancouver</b></a>
+                    <p>British Columbia, Canada</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!--favorite destinations-->
+        <p class = "explore">My Favorite Destinations</p>
+        <div class = "container2">
+            <div class = "card">
+                <div class = "imgtype2"><img src = "images/IMG_2175.JPG" class = "img2"></div>
+                <div class = "container3">
+                    <a href = "Yellowstone.html"><b>Yellowstone NP</b></a>
+                    <p>Wyoming, Idaho, and Montana</p>
+                </div>    
+            </div>
+
+            <div class = "card">
+                <div class = "imgtype2"><img src = "images/IMG_0183.JPG" class = "img2"></div>
+                <div class = "container3">
+                    <a href = "Corcovado.html"><b>Corcovado NP</b></a>
+                    <p>Southwestern Costa Rica</p>
+                </div>
+            </div>
+
+            <div class = "card">
+                <div class = "imgtype2"><img src = "images/IMG_3283.JPG" class = "img2"></div>
+                <div class = "container3">
+                    <a href = "GreatSmokyMountains.html"><b>Smoky Mountains NP</b></a>
+                    <p>Tennessee and North Carolina</p>
+                </div>
+            </div>
+
+            <div class = "card">
+                <div class = "imgtype2"><img src = "images/IMG_6175.JPG" class = "img2"></div>
+                <div class = "container3">
+                    <a href = "VancouverIsland.html"><b>Vancouver Island</b></a>
+                    <p>British Columbia</p>
+                </div>
+            </div>
+
+        </div>
+        <!--underrated places-->
+        <p class = "explore3">Underrated Places</p>
+        <div class = "container5">
+            <div class = "card">
+                <div class = "imgtype2"><img src = "images/IMG_2296.JPG" class = "img2"></div>
+                <div class = "container3">
+                    <a href = "Jiuxiang.html"><b>Jiuxiang</b></a>
+                    <p>Yunnan, China</p>
+                </div>    
+            </div>
+
+            <div class = "card">
+                <div class = "imgtype2"><img src = "images/IMG_7031.JPG" class = "img2"></div>
+                <div class = "container3">
+                    <a href = "CaboRojo.html"><b>Cabo Rojo</b></a>
+                    <p>Southwest Puerto Rico</p>
+                </div>
+            </div>
+
+            <div class = "card">
+                <div class = "imgtype2"><img src = "images/IMG_5746.JPG" class = "img2"></div>
+                <div class = "container3">
+                    <a href = "NorthCascades.html"><b>North Cascades</b></a>
+                    <p>Washington State</p>
+                </div>
+            </div>
+
+            <div class = "card">
+                <div class = "imgtype2"><img src = "images/IMG_7381.JPG" class = "img2"></div>
+                <div class = "container3">
+                    <a href = "Huanglong.html"><b>Huanglong</b></a>
+                    <p>Sichuan, China</p>
+                </div>
+            </div>
+
+        </div>
+        <!--Gallery--
+        <p class = "explore">Gallery</p>
+        <div class = "container6">
+            <div class="slides"><img src="images/IMG_0031.JPG" class = "img2"></div>
+            <div class="slides"><img src="images/IMG_0113.JPG" class = "img2"></div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class = "row">
+                <div class = "column">
+                    <img class = "Demo"
+                </div>
+            </div>
+        </div-->
+        <!--p class = "explore1">Map of Every Featured Place</p--->
+        <iframe src="https://www.google.com/maps/d/embed?mid=1c6QpAhbXKsTKC4HOH-ayckeMKIdWBIE&ehbc=2E312F"></iframe>
+    </body>
+    
+    <div id="footer"></div>
+    <script>
+        fetch('/footer.html').then(response => response.text()).then(data => {document.getElementById('footer').innerHTML = data;});
+    </script>
+</html>
+
