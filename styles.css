@@ -121,7 +121,6 @@ body .hi{
     margin: auto;
     padding-left: 10px;
     padding-right: 10px;
-    width: 100%;
 }
 
 .container2{
@@ -131,7 +130,6 @@ body .hi{
     justify-content: space-between;
     margin: auto;
     padding: 30px 20px;
-    width: 100%;
 }
 
 .container3{
@@ -140,7 +138,6 @@ body .hi{
     flex-wrap: wrap;
     justify-content: space-between;
     margin: auto;
-    width: 100%;
 }
 
 .container4{
@@ -151,7 +148,6 @@ body .hi{
     margin: auto;
     padding: 30px 20px;
     background-color: rgb(225, 225, 225);
-    width: 100%;
 }
 
 .container4 .card{
@@ -166,7 +162,6 @@ body .hi{
     margin: auto;
     padding: 30px 20px;
     background-color: rgb(195, 215, 187);
-    width: 100%;
 }
 
 .container5 .card{
