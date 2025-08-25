@@ -8,7 +8,7 @@ nav{
     position: fixed;
     width: 100%;
     box-shadow: 0px 0px 0px 1.5px rgba(0, 0, 0, 0.3);
-    z-index: 1000;
+    /*z-index: 1000;*/
 }
 nav .xbtravel{
     position: absolute;
@@ -25,7 +25,7 @@ nav ul{
     list-style: none;
     display: flex;
     justify-content: right;
-     background-color: rgb(157, 191, 143);
+    background-color: rgb(157, 191, 143);
 }
 
 nav ul li{
@@ -284,7 +284,7 @@ body .hi{
     margin-top: -50px;
     color: black;
     font-weight: bold;
-    font-size: 80px;
+    font-size: 80vw;
     border-radius: 0 3px 3px 0;
     /*user-select: none;
     -webkit-user-select: none;*/
@@ -418,16 +418,100 @@ footer p{
 }
 
 
+/**hamb**/
+.hamb{
+    display: none;
+}
+.side-menu{
+    display: none;
+}
+
+.hamb-line{
+    background: black;
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 24px;
+}
+
+.hamb-line::before, .hamb-line::after{
+    background: black;
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    width: 24px;
+}
+
+.hamb-line::before{
+    top: 5px;
+}
+
+.hamb-line::after{
+    bottom: 5px;
+}
+
+.side-menu{
+    display: none;
+}
+
+.side-menu:checked ~ .nav{
+    max-height: 1000px;
+}
+
+.side-menu:checked ~ .hamb .hamb-line {
+    background: transparent;
+}
+.side-menu:checked ~ .hamb .hamb-line::before {
+    transform: rotate(-45deg);
+    top:0;
+}
+.side-menu:checked ~ .hamb .hamb-line::after {
+    transform: rotate(45deg);
+    top:0;
+}
+
+body:has(.side-menu:checked){
+    overflow:hidden;
+}
 
 
+/**NavBar menu for mobile**/
 
 
+@media (max-width: 900px){
+    .hamb{
+        display: block;
+        cursor: pointer;
+        float: right;
+        padding: 30px 16px;
+    }
+    nav{
+        width: 100%;
+        overflow-x: hidden;
+        background-color: rgb(157, 191, 143);
+    }
 
+    .nav{
+        overflow: hidden;
+        width: 100%;
+        margin: 0;
+        width: 0;
+        max-height: 0;
+        transition: max-height 0.5s ease-out;
+    }
 
+    .nav li{
+        width: 100%;
+        list-style: none;
+    }
+    
+    .nav li a{
+        display: block;
+        flex-direction: column;
+    }
 
-
-
-
+}
 
 
 
