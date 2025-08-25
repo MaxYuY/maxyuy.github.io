@@ -456,8 +456,10 @@ footer p{
 }
 
 .side-menu:checked ~ .nav{
-    max-height: 1000px;
+    max-height: 100%;
 }
+
+
 
 .side-menu:checked ~ .hamb .hamb-line {
     background: transparent;
@@ -492,25 +494,50 @@ body:has(.side-menu:checked){
         background-color: rgb(157, 191, 143);
     }
 
-    .nav{
+    nav ul{
         overflow: hidden;
         width: 100%;
         margin: 0;
-        width: 0;
         max-height: 0;
-        transition: max-height 0.5s ease-out;
+        display: flex;
+        flex-direction: column;
     }
 
-    .nav li{
+    nav ul li{
         width: 100%;
         list-style: none;
     }
     
-    .nav li a{
+    nav ul li a{
         display: block;
-        flex-direction: column;
     }
 
+    
+    /*
+    nav ul{
+        list-style: none;
+        display: flex;
+        justify-content: right;
+        background-color: rgb(157, 191, 143);
+    }
+
+    nav ul li{
+        display: inline-block;
+        position: relative;
+    }
+
+    nav ul li a{
+        display: block;
+        padding: 20px 20px;
+        text-decoration: none;
+        background-color: rgb(157, 191, 143);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 18px;
+        color: black;
+    }
+
+    */
 }
 
 
