@@ -512,6 +512,28 @@ body:has(.side-menu:checked){
         display: block;
     }
 
+    .imgtype1{
+        flex:1;
+        padding-left: 20px;  
+        padding-right: 20px;   
+        padding-bottom: 30px;
+        height: 280px;
+    }
+    .imgtype2{
+        flex: 1;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 30px;   
+        height: 200px;
+    }
+    .imgtype3{
+        flex: 1;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px; 
+        padding-bottom: 30px; 
+    }
+
     .img1{
         width: 100%;
         height: 100%;
