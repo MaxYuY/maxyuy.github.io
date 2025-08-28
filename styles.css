@@ -646,31 +646,54 @@ body:has(.side-menu:checked){
         padding-right: 20px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-    /*
-    nav ul{
-        list-style: none;
-        display: flex;
-        justify-content: right;
-        background-color: rgb(157, 191, 143);
-    }
-
-    nav ul li{
-        display: inline-block;
-        position: relative;
-    }
-
-    nav ul li a{
-        display: block;
-        padding: 20px 20px;
-        text-decoration: none;
-        background-color: rgb(157, 191, 143);
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    .text4{
+        flex:1;
+        padding: 3px 20px;
+        font-size: 16px;
         text-align: center;
-        font-size: 18px;
-        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        
     }
+    .explore4{
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px;
+        padding: 10px 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+    }
+    .container7{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 55px;
+        padding-right: 30px;
+    }
+    .text1{
+        flex:1;
+        max-width: 600px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: large;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-    */
+    }
+    .text3{
+        flex:1;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: large;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 }
 
 
