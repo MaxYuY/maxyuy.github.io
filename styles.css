@@ -678,7 +678,7 @@ body:has(.side-menu:checked){
         max-width: 600px;
         padding-left: 30px;
         padding-right: 30px;
-        font-size: large;
+        font-size: medium;
         text-align: center;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
@@ -689,7 +689,7 @@ body:has(.side-menu:checked){
         padding-right: 30px;
         padding-top: 30px;
         padding-bottom: 30px;
-        font-size: large;
+        font-size: medium;
         text-align: center;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
