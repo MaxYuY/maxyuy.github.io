@@ -122,6 +122,15 @@ body .hi{
     padding-left: 10px;
     padding-right: 10px;
 }
+.footercontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 .container2{
     display: flex;
@@ -507,7 +516,7 @@ body:has(.side-menu:checked){
 /**NavBar menu for mobile**/
 
 
-@media (max-width: 900px){
+@media (max-width: 1000px){
     .hamb{
         display: block;
         cursor: pointer;
@@ -540,8 +549,8 @@ body:has(.side-menu:checked){
 
     .imgtype1{
         flex:1;
-        padding-left: 10px;  
-        padding-right: 10px;   
+        padding-left: 5px;  
+        padding-right: 5px;   
         padding-top: 10px;
         padding-bottom: 30px;
     }
@@ -554,8 +563,8 @@ body:has(.side-menu:checked){
     }
     .imgtype3{
         flex: 1;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
         padding-top: 10px; 
         padding-bottom: 30px; 
     }
@@ -569,7 +578,7 @@ body:has(.side-menu:checked){
 
     .img1{
         width: 100%;
-        height: 95px;
+        height: 90px;
         object-fit: cover;
     } 
     .img2{
@@ -579,7 +588,7 @@ body:has(.side-menu:checked){
     }
     .img3{
         width: 100%;
-        height: 95px;
+        height: 90px;
         object-fit: cover;
     }
     .img4{
@@ -628,12 +637,20 @@ body:has(.side-menu:checked){
         margin: auto;
         padding: 30px 20px;
     }
+    .footercontainer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    
+    }
     iframe{
         padding-left: 20px;
         padding-right: 20px;
         padding-top: 20px;
         padding-bottom: 20px;
-        width: 340px;
+        align: center;
+        width: 90vw;
         height: 300px;
         border: none;
     }
@@ -665,13 +682,11 @@ body:has(.side-menu:checked){
     }
     .container7{
         display: flex;
-        flex-wrap: wrap;
+        /*flex-wrap: wrap;*/
         flex-direction: column;
-        justify-content: space-between;
+        text-align: center;
         padding-top: 30px;
         padding-bottom: 30px;
-        padding-left: 55px;
-        padding-right: 30px;
     }
     .text1{
         flex:1;
