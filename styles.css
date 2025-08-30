@@ -697,6 +697,16 @@ body:has(.side-menu:checked){
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     }
+    .text2{
+        flex: 1;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
     .text3{
         flex:1;
         padding-left: 30px;
