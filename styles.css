@@ -507,11 +507,11 @@ footer p{
     transform: rotate(45deg);
     top:0;
 }
-
+/*
 body:has(.side-menu:checked){
     overflow:hidden;
 }
-
+*/
 
 /**NavBar menu for mobile**/
 
@@ -723,7 +723,10 @@ body:has(.side-menu:checked){
         text-align: center;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-
+    /*cards*/
+    .card{
+        margin:10px;
+    }
 }
 
 
