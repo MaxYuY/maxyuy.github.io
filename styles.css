@@ -113,11 +113,10 @@ body .hi{
 }
 
 /*containers*/
-.container{
+.container{ /*container, text3, title1, img3, imgtype3*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: auto;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -220,11 +219,7 @@ body .hi{
 }
 
 .text3{
-    flex:1;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px 50px 30px 50px;
     font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -270,10 +265,7 @@ body .hi{
 
 .imgtype3{
     flex: 1;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px; 
-    padding-bottom: 30px; 
+    padding: 10px 20px 30px 20px;
 }
 
 .img3{
@@ -557,10 +549,7 @@ body:has(.side-menu:checked){
     }
     .imgtype3{
         flex: 1;
-        padding-left: 8px;
-        padding-right: 8px;
-        padding-top: 10px; 
-        padding-bottom: 30px; 
+        padding: 10px 8px 30px 8px; 
     }
     .imgtype4{
         flex: 1;
@@ -583,16 +572,11 @@ body:has(.side-menu:checked){
     .img3{
         width: 100%;
         height: 95px;
-        object-fit: cover;
     }
     .img4{
         width: 100%;
         height: 200px;
         object-fit: cover;
-    }
-    .container {
-        display: flex;
-        flex-direction: row;
     }
     .container9{
         display: flex;
@@ -647,9 +631,7 @@ body:has(.side-menu:checked){
         text-align: center;
         font-weight: bold;
         font-size: 36px;
-        padding-top: 85px;
-        padding-left: 20px; 
-        padding-right: 20px;
+        padding: 85px 20px 20px 0px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .text4{
