@@ -333,7 +333,7 @@ body .hi{
     text-align: center;
     font-weight: bold;
     font-size: 36px;
-    padding-top: 85px;
+    padding-top: 90px;
     padding-bottom: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -341,7 +341,7 @@ body .hi{
     text-align: center;
     font-weight: bold;
     font-size: 36px;
-    padding-top: 85px;
+    padding: 90px 25px 0px 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -548,7 +548,6 @@ body:has(.side-menu:checked){
         height: 200px;
     }
     .imgtype3{
-        flex: 1;
         padding: 10px 8px 30px 8px; 
     }
     .imgtype4{
@@ -561,7 +560,7 @@ body:has(.side-menu:checked){
 
     .img1{
         width: 100%;
-        height: 95px;
+        height: 98px;
         object-fit: cover;
     } 
     .img2{
@@ -570,8 +569,7 @@ body:has(.side-menu:checked){
         object-fit: cover;
     }
     .img3{
-        width: 100%;
-        height: 95px;
+        height: 98px;
     }
     .img4{
         width: 100%;
@@ -627,13 +625,6 @@ body:has(.side-menu:checked){
         height: 300px;
         border: none;
     }
-    .title1{
-        text-align: center;
-        font-weight: bold;
-        font-size: 36px;
-        padding: 85px 20px 20px 0px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
     .text4{
         flex:1;
         padding: 3px 20px;
@@ -680,14 +671,9 @@ body:has(.side-menu:checked){
     }
 
     .text3{
-        flex:1;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding: 30px 30px;
         font-size: medium;
         text-align: center;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     body .aboutme{
         padding: 20px 60px;
