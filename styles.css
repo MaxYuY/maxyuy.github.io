@@ -113,7 +113,7 @@ body .hi{
 }
 
 /*containers*/
-.container{ /*container, text3, title1, img3, imgtype3*/
+.container{ /*information pages for each place: container, title1, text3, img3, imgtype3*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -219,7 +219,7 @@ body .hi{
 }
 
 .text3{
-    padding: 30px 50px 30px 50px;
+    padding: 30px 50px;
     font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -687,120 +687,3 @@ body:has(.side-menu:checked){
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-/*
-body{
-    margin: 0px;
-}
-.navbar {
-    overflow: hidden;
-    background-color: rgb(199, 193, 149);
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 12px 12px;
-    margin: 0px;
-    display: flex;
-    justify-content: right;
-    
-}
-.navbar ul{
-    list-style-type: none;
-    overflow: hidden;
-    
-}
-.navbar p{
-    color: black;
-    position: absolute;
-    left: 28px;
-    font-weight: bold;
-    font-size: 24px;
-    text-decoration: none; 
-    top: 10px;
-}
-    
-.navbar a{
-    font-size: 18px;
-    color: black;
-    padding: 15px;
-    text-decoration: none;
-}
-
-.navbar li{
-    float: left;
-    position: relative;
-}
-.usa .usa_dropdown_list{
-    float: center;
-    display: block;
-    justify-content: left;
-}
-/*
-.navbar ul li{
-    padding: 10px 10px;
-    position: relative;
-}
-
-.usa_dropdown_list{
-    display: none;
-    position: absolute;
-}
-
-.usa_dropdown_list a{
-    display: block;
-    font-size: 12px;
-}
-
-
-.usa .usa_dropdown_list a:hover{
-    background-color: red;
-}
-.usa:hover .usa_dropdown_list{
-    display: block;
-}
-*/
-
-/******************************************************************************************************/
-
-
-/*
-.usa_dropdown_list {
-    list-style-type: none;
-    display: none;
-    position: absolute; 
-    top: 100%; 
-    left: 0;
-    background-color: green;
-    min-width: 200px; 
-    min-height: 1px;
-    z-index: 1;
-    padding: 0;
-    margin: 0;
-}
-*/
-/*
-.usa_dropdown_list a{
-    font-size: 12px;
-    padding: 16px 16px;
-    text-decoration: none;
-    text-align: left;
-    background-color: green;
-}
-
-.usa .usa_dropdown_list a:hover{
-    background-color: red;
-}
-
-.usa:hover .usa_dropdown_list{
-    display: block;
-}
-    */
-   
