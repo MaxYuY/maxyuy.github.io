@@ -113,19 +113,16 @@ nav ul li:hover .container8{
     justify-content: space-between;
     padding: 0px 10px;
 }
-.footercontainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0px 10px;
-}
 
 .container2{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: auto;
     padding: 30px 20px;
+}
+
+.container2 .card{
+    background-color: white;
 }
 
 .container3{
@@ -135,39 +132,7 @@ nav ul li:hover .container8{
     margin: auto;
 }
 
-.container4{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 30px 20px;
-    background-color: rgb(225, 225, 225);
-}
-
-.container4 .card{
-    background-color: white;
-}
- 
-.container5{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: auto;
-    padding: 30px 20px;
-    background-color: rgb(195, 215, 187);
-}
-
-.container5 .card{
-    background-color: white;
-}
-
-.container6{
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-}
-
-.container7{
+.container7{ /*for footer*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -182,6 +147,13 @@ nav ul li:hover .container8{
 }
 
 
+.footercontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
 /*texts*/
 .text1{
     flex:1;
@@ -191,15 +163,15 @@ nav ul li:hover .container8{
 
 }
 
+.text1 a{
+    color: blue;
+}
+
 .text2{
     flex: 1;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 30px 30px;
-}
-
-.text1 a{
-    color: blue;
 }
 
 .text3{
@@ -266,38 +238,6 @@ nav ul li:hover .container8{
     object-fit: cover;
 }
 
-
-/*gallery*/
-.slides{
-    height: 800px;
-    display: none;
-}
-
-.prev, .next{
-    cursor: pointer;
-    position: absolute;
-    top: 40%;
-    width: auto;
-    padding: 20px;
-    margin-top: -50px;
-    color: black;
-    font-weight: bold;
-    font-size: 80vw;
-    border-radius: 0 3px 3px 0;
-    /*user-select: none;
-    -webkit-user-select: none;*/
-}
-
-.next{
-    right: 0px;
-}
-
-.prev:hover, .next:hover{
-    background-color: rgba(190, 190, 190, 0.8);
-}
-
-
-
 /*Explore and title texts*/
 .explore{
     text-align: center;
@@ -307,14 +247,6 @@ nav ul li:hover .container8{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.title{
-    text-align: center;
-    font-weight: bold;
-    font-size: 36px;
-    padding-top: 90px;
-    padding-bottom: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 .title1{
     text-align: center;
     font-weight: bold;
@@ -542,51 +474,27 @@ body:has(.side-menu:checked){
     .img4{
         height: 200px;
     }
+    
+    .container2{
+        flex-direction: column;
+    }
+    .container7{
+        padding: 25px 0px;
+    }
     .container9{
         flex-direction: column;
-    }
-    .container4{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin: auto;
-        padding: 30px 20px;
-        background-color: rgb(225, 225, 225);
-    }
-    .container5{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: space-between;
-        margin: auto;
-        padding: 30px 20px;
-        background-color: rgb(195, 215, 187);
-    }
-    .container2{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin: auto;
-        padding: 30px 20px;
     }
     .footercontainer{
         flex-direction: column;
     }
     iframe{
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding: 20px 20px;
         width: 90vw;
         height: 300px;
         border: none;
     }
     .text4{
         text-align: center;
-    }
-    .container7{
-        padding: 25px 0px;
     }
     .text1{
         padding: 0px 30px;
