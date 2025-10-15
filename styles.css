@@ -301,11 +301,8 @@ nav ul li:hover .container8{
 /*map*/
 
 iframe{
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    width: 1130px;
+    padding: 30px 60px;
+    width: 1160px;
     height: 500px;
     border: none;
 }
