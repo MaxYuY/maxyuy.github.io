@@ -99,33 +99,21 @@ nav ul li:hover .container8{
 }
 
 
-/*About me*/
-.aboutme{ /*aboutme, container9, text1, imgtype4, img4, imgtype1, img1, text2*/
-    padding: 20px 60px;
-    padding-top: 90px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 /*containers*/
-.container{ /*images*/
+.container{ /*image container*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0px 10px;
 }
 /*card ones*/
-.container2{
+.container2{ /*contains all the cards*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 30px 20px;
 }
 
-.container3{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
 /**/
 
 .container7{ /*for footer*/
@@ -256,8 +244,11 @@ nav ul li:hover .container8{
 
 
 /*cards*/
-.card{
+.card{ /*subcontainer inside container2*/
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
     margin: 0px 10px;
     background-color: white;
@@ -359,12 +350,6 @@ footer p{
     transform: rotate(45deg);
     top:0;
 }
-/*
-body:has(.side-menu:checked){
-    overflow:hidden;
-}
-*/
-
 /**NavBar menu for mobile**/
 
 
