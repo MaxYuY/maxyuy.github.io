@@ -150,12 +150,12 @@ nav ul li:hover .container8{
 }
 
 /*images*/
-.imgtype1{  /*Image "holder" for Aboutme and Regional Pages*/
+.imgtype1{  /*Image "holder" for gallery photos*/
     flex:1;
     padding: 0px 20px 30px 20px;
 }
 
-.img1{ /*Images for aboutme and regional pages*/
+.img1{ /*Photo Galleries*/
     width: 100%;
     height: 300px;
     object-fit: cover;
@@ -167,12 +167,12 @@ nav ul li:hover .container8{
     object-fit: cover;
 }
 
-.imgtype3{ /*Image "holder" for Destination Pages*/
+.imgtype3{ /*Image "holder" for destination description images*/
     flex: 1;
     padding: 10px 20px 30px 20px;
 }
 
-.img3{ /*Images for destination pages*/
+.img3{ /*Images for destination description*/
     width: 100%;
     height: 400px;
     object-fit: cover;
@@ -196,7 +196,6 @@ nav ul li:hover .container8{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
 .explore4{ /*Subtitles for footer*/
     text-align: center;
     font-weight: bold;
@@ -207,7 +206,7 @@ nav ul li:hover .container8{
 }
 
 /*cards*/
-.card{ /*subcontainer inside container2*/
+.card{ /*Cards, a subcontainer inside container2*/
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -361,11 +360,6 @@ footer p{ /*Italicized xbtravel at te bottom*/
     .img3{
         height: 98px;
     }
-    .img4{
-        width: 90%;
-        height: 200px;
-        padding: 20px 0px 40px 0px;
-    }
     
     .container2{
         flex-direction: column;
@@ -377,10 +371,6 @@ footer p{ /*Italicized xbtravel at te bottom*/
     .container7{
         padding: 25px 0px;
     }
-    .container9{
-        align-items: center;
-        flex-direction: column;
-    }
     
     iframe{
         padding: 20px 20px;
@@ -388,24 +378,10 @@ footer p{ /*Italicized xbtravel at te bottom*/
         height: 300px;
         border: none;
     }
-    
-    .text1{
-        padding: 0px 30px;
-        font-size: medium;
-        text-align: center;
-    }
 
     .text3{
         padding: 30px 30px;
         font-size: medium;
-        text-align: center;
-    }
-
-    .text4{
-        text-align: center;
-    }
-
-    .aboutme{
         text-align: center;
     }
     /*cards*/
