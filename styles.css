@@ -106,7 +106,6 @@ nav ul li:hover .container8{
     justify-content: space-between;
     padding: 0px 10px;
 }
-/*card ones*/
 .container2{ /*contains all the cards*/
     display: flex;
     flex-direction: row;
@@ -114,24 +113,21 @@ nav ul li:hover .container8{
     padding: 30px 20px;
 }
 
-/**/
-
-.container7{ /*for footer*/
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 30px 20px;
-}
-
-.container9{
+.container6{ /*container for footer categories*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0px 10px;
 }
 
+.container7{ /*container for footer place links*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
 
-.footercontainer{
+.container9{ /*container for regional page descriptions*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -139,26 +135,24 @@ nav ul li:hover .container8{
 }
 
 /*texts*/
-.text1{
-    flex:1;
+.text1{ /*Text in Region Pages and About Me*/
     padding: 0px 30px 0px 50px;
     font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
-.text1 a{
+.text1 a{ /*Make all links in Region page texts blue*/
     color: blue;
 }
 
-.text3{
+.text3{ /*Text in Destination pages*/
     padding: 30px 50px;
     font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.text4{
-    flex:1;
+.text4{ /*Destination Links for footer*/
     padding: 3px 20px;
     font-size: 16px;
     text-align: left;
@@ -168,52 +162,52 @@ nav ul li:hover .container8{
 }
 
 /*images*/
-.imgtype1{ 
+.imgtype1{  /*Image "holder" for Aboutme and Regional Pages*/
     flex:1;
     padding: 0px 20px 30px 20px;
 }
 
-.img1{
+.img1{ /*Images for aboutme and regional pages*/
     width: 100%;
     height: 300px;
     object-fit: cover;
 }  
 
-.imgtype2{
-    flex: 1;
-    padding: 30px 20px 0px 20px;
-}
-
-.img2{
+.img2{ /*images for cards*/
     width: 100%;
     height: 200px;
     object-fit: cover;
 }
 
-.imgtype3{
+.imgtype3{ /*Image "holder" for Destination Pages*/
     flex: 1;
     padding: 10px 20px 30px 20px;
 }
 
-.img3{
+.img3{ /*Images for destination pages*/
     width: 100%;
     height: 400px;
     object-fit: cover;
 }
 
-.imgtype4{
-    flex: 1;
+.img4{ /*Images for regional page descriptions*/
     padding: 5px 20px 30px 20px;
-}
-
-.img4{
     width: 100%;
-    height: 400px;
+    height: 350px;
     object-fit: cover;
 }
 
 /*Explore and title texts*/
-.explore{
+
+.title1{ /*Title of each page*/
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    padding: 90px 30px 10px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.explore{ /*Subtitles*/
     text-align: center;
     font-weight: bold;
     font-size: 36px;
@@ -222,7 +216,7 @@ nav ul li:hover .container8{
 }
 
 
-.explore4{
+.explore4{ /*Subtitles for footer*/
     text-align: center;
     font-weight: bold;
     font-size: 24px;
@@ -230,18 +224,6 @@ nav ul li:hover .container8{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
 }
-
-
-.title1{
-    text-align: center;
-    font-weight: bold;
-    font-size: 36px;
-    padding: 90px 30px 0px 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-
-
 
 /*cards*/
 .card{ /*subcontainer inside container2*/
@@ -257,7 +239,7 @@ nav ul li:hover .container8{
 .card:hover{
     box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.8);
 }
-.card a{
+.card a{ /*Link to the destination inside the card*/
     padding: 20px 20px 15px 20px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -265,7 +247,7 @@ nav ul li:hover .container8{
     color: black;
 }
 
-.card p{
+.card p{ /*Destination description inside card*/
     padding: 0px 20px 30px 20px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -275,7 +257,7 @@ nav ul li:hover .container8{
 
 /*map*/
 
-iframe{
+iframe{ /*Map*/
     padding: 30px 60px;
     width: 1100px;
     height: 500px;
@@ -283,11 +265,11 @@ iframe{
 }
 /*footer*/
 
-footer{ /*footer stuff: footer, footer p, footercontainer, container7, explore4, text4*/
+footer{ /*footer*/
     min-height: 550px;
     background: rgb(117, 30, 30);
 }
-footer p{
+footer p{ /*Italicized xbtravel at te bottom*/
     text-align: center;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -383,16 +365,13 @@ footer p{
     nav ul li a{
         display: block;
     }
-
+    /**/
     .imgtype1{
         padding: 0px 8px 30px 8px;
     }
 
     .imgtype3{
         padding: 10px 8px 30px 8px; 
-    }
-    .imgtype4{
-        padding: 20px 20px 40px 20px;
     }
 
     .img1{
@@ -402,22 +381,26 @@ footer p{
         height: 98px;
     }
     .img4{
+        width: 90%;
         height: 200px;
+        padding: 20px 0px 40px 0px;
     }
     
     .container2{
         flex-direction: column;
         padding: 10px 20px;
     }
+    .container6{
+        flex-direction: column;
+    }
     .container7{
         padding: 25px 0px;
     }
     .container9{
+        align-items: center;
         flex-direction: column;
     }
-    .footercontainer{
-        flex-direction: column;
-    }
+    
     iframe{
         padding: 20px 20px;
         width: 90vw;
