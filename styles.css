@@ -127,29 +127,17 @@ nav ul li:hover .container8{
     padding: 30px 20px;
 }
 
-.container9{ /*container for regional page descriptions*/
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0px 10px;
-}
-
 /*texts*/
-.text1{ /*Text in Region Pages and About Me*/
-    padding: 0px 30px 0px 50px;
-    font-size: large;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-}
-
-.text1 a{ /*Make all links in Region page texts blue*/
-    color: blue;
-}
 
 .text3{ /*Text in Destination pages*/
     padding: 30px 50px;
     font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text3 a{ /*Make all links in Region page texts blue*/
+    color: blue;
 }
 
 .text4{ /*Destination Links for footer*/
@@ -187,13 +175,6 @@ nav ul li:hover .container8{
 .img3{ /*Images for destination pages*/
     width: 100%;
     height: 400px;
-    object-fit: cover;
-}
-
-.img4{ /*Images for regional page descriptions*/
-    padding: 5px 20px 30px 20px;
-    width: 100%;
-    height: 350px;
     object-fit: cover;
 }
 
