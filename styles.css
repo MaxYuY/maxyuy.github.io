@@ -239,14 +239,11 @@ nav ul li:hover .container8{
 
 .map{
     display: flex;
-    align-items: center;
 }
 
 iframe{ /*Map*/
     flex: 1;
     padding: 30px 30px;
-    max-width: 100%;
-    align-content: center;
     border: none;
 }
 /*footer*/
