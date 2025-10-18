@@ -237,10 +237,16 @@ nav ul li:hover .container8{
 
 /*map*/
 
+.map{
+    display: flex;
+    align-items: center;
+}
+
 iframe{ /*Map*/
-    padding: 30px 60px;
-    width: 1100px;
-    height: 500px;
+    flex: 1;
+    padding: 30px 30px;
+    max-width: 100%;
+    align-content: center;
     border: none;
 }
 /*footer*/
@@ -369,6 +375,7 @@ footer p{ /*Italicized xbtravel at te bottom*/
         flex-direction: column;
     }
     .container7{
+        align-items: center;
         padding: 25px 0px;
     }
     
@@ -384,7 +391,6 @@ footer p{ /*Italicized xbtravel at te bottom*/
         font-size: medium;
         text-align: center;
     }
-    /*cards*/
     
 }
 
