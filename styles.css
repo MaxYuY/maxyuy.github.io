@@ -8,7 +8,6 @@ nav{
     position: fixed;
     width: 100%;
     box-shadow: 0px 0px 0px 1.5px rgba(0, 0, 0, 0.3);
-    /*z-index: 1000;*/
 }
 nav .xbtravel{
     position: absolute;
@@ -24,12 +23,11 @@ nav .xbtravel{
 nav ul{
     list-style: none;
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     background-color: rgb(157, 191, 143);
 }
 
 nav ul li{
-    display: inline-block;
     position: relative;
 }
 
@@ -103,32 +101,34 @@ nav ul li:hover .container8{
 .container{ /*image container*/
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     padding: 0px 10px;
 }
 .container2{ /*contains all the cards*/
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     padding: 30px 20px;
 }
 
 .container6{ /*container for footer categories*/
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 0px 10px;
 }
 
 .container7{ /*container for footer place links*/
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     padding: 30px 20px;
 }
 
 /*texts*/
-
+.caption{
+    padding: 6px 6px;
+    font-size: 16px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
 
 .text3{ /*Text in Destination pages*/
     padding: 30px 50px;
@@ -143,7 +143,6 @@ nav ul li:hover .container8{
 .text4{ /*Destination Links for footer*/
     padding: 3px 20px;
     font-size: 16px;
-    text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
 
@@ -197,7 +196,6 @@ nav ul li:hover .container8{
 }
 
 .explore4{ /*Subtitles for footer*/
-    text-align: center;
     font-weight: bold;
     font-size: 24px;
     padding: 10px 20px;
@@ -210,7 +208,6 @@ nav ul li:hover .container8{
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
     margin: 10px;
     background-color: white;
@@ -249,7 +246,7 @@ iframe{ /*Map*/
 /*footer*/
 
 footer{ /*footer*/
-    min-height: 550px;
+    height: 550px;
     background: rgb(117, 30, 30);
 }
 footer p{ /*Italicized xbtravel at te bottom*/
@@ -387,6 +384,9 @@ footer p{ /*Italicized xbtravel at te bottom*/
         padding: 30px 30px;
         font-size: medium;
         text-align: center;
+    }
+    .caption{
+        font-size: 12px;
     }
     
 }
