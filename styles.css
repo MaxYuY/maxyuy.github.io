@@ -4,12 +4,13 @@
 }
 
 /*Nav Bar*/
-nav{
+nav{ /*Nav Bar*/
     position: fixed;
     width: 100%;
     box-shadow: 0px 0px 0px 1.5px rgba(0, 0, 0, 0.3);
+    background-color: rgb(157, 191, 143);
 }
-nav .xbtravel{
+nav .xbtravel{ /*XBTRAVEL Logo*/
     position: absolute;
     left: 60px;
     top:12px;
@@ -20,55 +21,48 @@ nav .xbtravel{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
-nav ul{
+nav ul{ /*"Container" for Navbar that contains each region element*/
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    background-color: rgb(157, 191, 143);
 }
 
-nav ul li{
+nav ul li{ /*Each Regional element*/
     position: relative;
 }
 
-nav ul li a{
+nav ul li a{ /*Each link to regional page*/
     display: block;
     padding: 20px 20px;
     text-decoration: none;
-    background-color: rgb(157, 191, 143);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(157, 191, 143);
     text-align: center;
     font-size: 18px;
     color: black;
 }
 
-nav ul li ul.dropdown li{
-    display: block;
-}
-
-nav ul li ul.dropdown{
+nav ul li .dropdown{  /*List of places in each region*/
     width: 100%;
     position: absolute;
-    z-index: 1;
     display: none;
 }
-nav ul li ul.dropdown a{
+
+nav ul li .dropdown a{ /*Links of places in each region*/
     font-size: 12px;
+    display: block;
     padding: 8px 12px;
     text-align: center;
 }
 
-
-
-
-nav ul li:hover .link{
+nav ul li:hover .regionlink{ /*Turns Region link yellow anytime a part of the regional element is hovered*/
     background: rgb(235, 255, 156);
 }
 
-nav ul li a:hover{
+nav ul li .placelink:hover{ /**/
     background: rgb(235, 255, 156);
 }
-nav ul li:hover ul.dropdown{
+nav ul li:hover .dropdown{
     display: block;
 }
 
@@ -82,7 +76,7 @@ nav ul li:hover ul.dropdown{
 }
 
 
-nav li .container8 a{
+nav li .container8 .placelink{
     font-size: 12px;
     text-align: center;
     padding: 10px 0px;
@@ -295,7 +289,7 @@ footer p{ /*Italicized xbtravel at te bottom*/
     display: none;
 }
 
-.side-menu:checked ~ .nav{
+.side-menu:checked ~ .regions{
     max-height: 100%;
 }
 
@@ -322,29 +316,14 @@ footer p{ /*Italicized xbtravel at te bottom*/
         float: right;
         padding: 30px 16px;
     }
-    nav{
-        width: 100%;
-        overflow-x: hidden;
-        background-color: rgb(157, 191, 143);
-    }
 
     nav ul{
         overflow: hidden;
         width: 100%;
-        margin: 0;
         max-height: 0;
-        display: flex;
         flex-direction: column;
     }
 
-    nav ul li{
-        width: 100%;
-        list-style: none;
-    }
-    
-    nav ul li a{
-        display: block;
-    }
     /**/
     .imgtype1{
         padding: 0px 8px 30px 8px;
