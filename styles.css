@@ -35,7 +35,6 @@ nav{ /*Nav Bar*/
     padding: 20px 20px;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
     text-align: center;
     font-size: 18px;
     color: black;
@@ -43,6 +42,7 @@ nav{ /*Nav Bar*/
 .dropdown{  /*List of places in each region*/
     width: 100%;
     flex-direction: column;
+    background-color: rgb(157, 191, 143);
     position: absolute;
     display: none;
 }
@@ -51,7 +51,6 @@ nav{ /*Nav Bar*/
     padding: 8px 12px;
     text-align: center;
     text-decoration: none;
-    background-color: rgb(157, 191, 143);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
     font-size: 12px;
