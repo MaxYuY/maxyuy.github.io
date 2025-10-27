@@ -10,7 +10,7 @@ nav{ /*Nav Bar*/
     box-shadow: 0px 0px 0px 1.5px rgba(0, 0, 0, 0.3);
     background-color: rgb(157, 191, 143);
 }
-nav .xbtravel{ /*XBTRAVEL Logo*/
+.xbtravel{ /*XBTRAVEL Logo*/
     position: absolute;
     left: 60px;
     top:12px;
@@ -21,17 +21,16 @@ nav .xbtravel{ /*XBTRAVEL Logo*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
-nav ul{ /*"Container" for Navbar that contains each region element*/
-    list-style: none;
+.regions{ /*"Container" for Navbar that contains each region element*/
     display: flex;
     justify-content: flex-end;
 }
 
-nav ul li{ /*Each Regional element*/
+.region{ /*Each Regional element*/
     position: relative;
 }
 
-nav ul li a{ /*Each link to regional page*/
+.regionlink{ /*Each link to regional page*/
     display: block;
     padding: 20px 20px;
     text-decoration: none;
@@ -41,53 +40,57 @@ nav ul li a{ /*Each link to regional page*/
     font-size: 18px;
     color: black;
 }
-
-nav ul li .dropdown{  /*List of places in each region*/
+.dropdown{  /*List of places in each region*/
     width: 100%;
+    flex-direction: column;
     position: absolute;
     display: none;
 }
 
-nav ul li .dropdown a{ /*Links of places in each region*/
-    font-size: 12px;
-    display: block;
+.placelink{ /*Links of places in each region*/
+    
     padding: 8px 12px;
     text-align: center;
+    text-decoration: none;
+    background-color: rgb(157, 191, 143);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 12px;
 }
 
-nav ul li:hover .regionlink{ /*Turns Region link yellow anytime a part of the regional element is hovered*/
+.region:hover .regionlink{ /*Turns Region link yellow anytime a part of the regional element is hovered*/
     background: rgb(235, 255, 156);
 }
 
-nav ul li .placelink:hover{ /**/
+.region:hover .dropdown{
+    display: flex;
+}
+
+.placelink:hover{ /**/
     background: rgb(235, 255, 156);
 }
-nav ul li:hover .dropdown{
-    display: block;
-}
+
 
 /** usa stuff **/
 
-.container8{
+.usdropdown{
     display: none;
     position: absolute;
     background: rgb(157, 191, 143);
     max-width: 291px;
 }
 
-
-nav li .container8 .placelink{
-    font-size: 12px;
-    text-align: center;
-    padding: 10px 0px;
-}
-
-nav ul li:hover .container8{
+.region:hover .usdropdown{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
-    gap: 0px 0px;
-    width: 350px;
+    width: 300px;
+}
+
+.usdropdown .placelink{
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 0px;
 }
 
 
@@ -317,7 +320,7 @@ footer p{ /*Italicized xbtravel at te bottom*/
         padding: 30px 16px;
     }
 
-    nav ul{
+    .regions{
         overflow: hidden;
         width: 100%;
         max-height: 0;
@@ -366,7 +369,6 @@ footer p{ /*Italicized xbtravel at te bottom*/
     }
     .caption{
         font-size: 12px;
-    }
-    
+    } 
 }
 
