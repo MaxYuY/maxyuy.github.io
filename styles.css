@@ -241,7 +241,7 @@ iframe{ /*Map*/
 /*footer*/
 
 footer{ /*footer*/
-    height: 550px;
+    height: 530px;
     background: rgb(117, 30, 30);
 }
 footer p{ /*Italicized xbtravel at te bottom*/
@@ -249,7 +249,7 @@ footer p{ /*Italicized xbtravel at te bottom*/
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
-    padding-bottom: 25px;
+    /*padding-bottom: 25px;*/
 }
 
 
