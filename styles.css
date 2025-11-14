@@ -317,12 +317,20 @@ footer p{ /*Italicized xbtravel at te bottom*/
         float: right;
         padding: 30px 16px;
     }
+    
 
     .regions{
         overflow: hidden;
         width: 100%;
         max-height: 0;
         flex-direction: column;
+    }
+
+    .region:hover .dropdown{
+        display: none;
+    }
+    .region:hover .usdropdown{
+        display: none;
     }
 
     /**/
