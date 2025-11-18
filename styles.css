@@ -116,6 +116,11 @@ nav{ /*Nav Bar*/
     flex-direction: column;
     padding: 30px 20px;
 }
+.container8{ /*container for footer place links*/
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+}
 
 /*texts*/
 .caption{
@@ -358,6 +363,11 @@ footer p{ /*Italicized xbtravel at te bottom*/
     }
     .container7{
         align-items: center;
+        padding: 25px 0px;
+        display: none;
+    }
+    .container8{
+         align-items: center;
         padding: 25px 0px;
     }
     
