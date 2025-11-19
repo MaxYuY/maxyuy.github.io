@@ -3,14 +3,14 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Monterey</title>
+        <title>Monterey Bay</title>
         <link rel = "stylesheet" href = styles.css>
     </head>
     <body>
         <div id="navbar"></div>
         <script>
             if (window.location.pathname.endsWith('.html')) {
-                window.location.href = window.location.pathname.replace('.html', '');
+                window.location.href = window.location.pathname.replace('.html', 'Bay');
             }
             fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
         </script>
