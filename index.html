@@ -12,9 +12,7 @@
         <div id="navbar"></div>
         <script>
             fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
-            if (window.location.pathname.endsWith('.html')) {
-                window.location.href = window.location.pathname.replace('index.html', 'Home');
-            }
+            
         </script>
     
         <!--explore--> 
