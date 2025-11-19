@@ -13,10 +13,8 @@
         <script>
             fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
             if (window.location.pathname.endsWith('.html')) {
-                // Redirect to the same page without ".html"
-                window.location.href = window.location.pathname.replace('.html', '');
+                window.location.href = window.location.pathname.replace('index.html', 'Home');
             }
-
         </script>
     
         <!--explore--> 
