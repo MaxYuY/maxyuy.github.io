@@ -9,9 +9,11 @@
     <body>
         <div id="navbar"></div>
         <script>
+            /*
             if (window.location.pathname.endsWith('.html')) {
                 window.location.href = window.location.pathname.replace('.html', '');
             }
+                */
             fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
         </script>
 
@@ -101,7 +103,7 @@
         <div class = "container">
             <div class = "imgtype1"><img src = "images/IMG_5086.JPG" class = "img1"><p class = "caption">Delicate Arch, Arches NP</p></div>
             <div class = "imgtype1"><img src = "images/IMG_2112.JPG" class = "img1"><p class = "caption">Grizzly Bear, Yellowstone NP</p></div>
-            <div class = "imgtype1"><img src = "images/IMG_3031.JPG" class = "img1"><p class = "caption">Paradise Meadow, Glacier NP</p></div>
+            <div class = "imgtype1"><img src = "images/IMG_3031.JPG" class = "img1"><p class = "caption">Paradise Meadow, Glacier</p></div>
         </div>
 
         <div class = "container">
@@ -113,12 +115,12 @@
         <div class = "container">
             <div class = "imgtype1"><img src = "images/IMG_5746.JPG" class = "img1"><p class = "caption">Diablo Lake, North Cascades</p></div>
             <div class = "imgtype1"><img src = "images/IMG_1605.JPG" class = "img1"><p class = "caption">Moose & Calf, Yellowstone</p></div>
-            <div class = "imgtype1"><img src = "images/IMG_8377.JPG" class = "img1"><p class = "caption">Sheep Lakes View, Rocky Mountain</p></div>
+            <div class = "imgtype1"><img src = "images/IMG_8377.JPG" class = "img1"><p class = "caption">Sheep Lakes, Rocky Mountain</p></div>
         </div>
 
         <div class = "container">
             <div class = "imgtype1"><img src = "images/IMG_0115.JPG" class = "img1"><p class = "caption">Sea Otter & Pup, Monterey Bay</p></div>
-            <div class = "imgtype1"><img src = "images/IMG_1979.JPG" class = "img1" style = "object-position: center 80%;"><p class = "caption">Mt. Washburn View, Yellowstone</p></div>
+            <div class = "imgtype1"><img src = "images/IMG_1979.JPG" class = "img1" style = "object-position: center 80%;"><p class = "caption">Mt. Washburn, Yellowstone</p></div>
             <div class = "imgtype1"><img src = "images/IMG_8394.JPG" class = "img1"><p class = "caption">Rabbit, Rocky Mountain NP</p></div>
         </div>
 
