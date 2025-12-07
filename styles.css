@@ -94,9 +94,9 @@ nav{ /*Nav Bar*/
 
 /*containers*/
 .container{ /*image container*/
-    display: flex;
-    flex-direction: row;
-    padding: 0px 10px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    margin-bottom: 12px;
 }
 .container2{ /*contains all the cards*/
     display: flex;
@@ -121,7 +121,6 @@ nav{ /*Nav Bar*/
     flex-direction: column;
     padding: 30px 20px;
 }
-
 /*texts*/
 .caption{
     padding: 6px 6px 0px 6px;
@@ -167,15 +166,15 @@ nav{ /*Nav Bar*/
 }
 
 .imgtype3{ /*Image "holder" for destination description images*/
-    flex: 1;
-    padding: 10px 20px 30px 20px;
+    display: inline-block;
+    padding: 0px 0px 15px 15px;
 }
 
 .img3{ /*Images for destination description*/
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
+    height: 300px;
 }
+
+
 
 /*Explore and title texts*/
 
@@ -183,7 +182,7 @@ nav{ /*Nav Bar*/
     text-align: center;
     font-weight: bold;
     font-size: 36px;
-    padding: 90px 30px 10px 30px;
+    padding: 90px 30px 0px 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
