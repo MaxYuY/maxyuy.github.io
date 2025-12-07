@@ -127,6 +127,7 @@ nav{ /*Nav Bar*/
     font-size: 16px; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    overflow-wrap: normal;
 }
 
 .text3{ /*Text in Destination pages*/
@@ -172,6 +173,11 @@ nav{ /*Nav Bar*/
 
 .img3{ /*Images for destination description*/
     height: 300px;
+}
+
+.imgtype4{
+    display: inline-block;
+    padding: 0px 15px 15px 15px;
 }
 
 
@@ -343,15 +349,19 @@ footer p{ /*Italicized xbtravel at te bottom*/
     }
 
     .imgtype3{
-        padding: 10px 8px 30px 8px; 
+        padding: 0px 0px 10px 10px; 
+    }
+    .imgtype4{ 
+        padding: 0px 10px 10px 10px;
     }
 
     .img1{
         height: 80px;
     } 
     .img3{
-        height: 98px;
+        height: 92px;
     }
+    
     
     .container2{
         flex-direction: column;
@@ -383,7 +393,7 @@ footer p{ /*Italicized xbtravel at te bottom*/
         text-align: center;
     }
     .caption{
-        font-size: 11px;
+        font-size: 10px;
     } 
 }
 

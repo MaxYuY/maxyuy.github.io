@@ -9,9 +9,11 @@
     <body>
         <div id="navbar"></div>
         <script>
+            
             if (window.location.pathname.endsWith('.html')) {
                 window.location.href = window.location.pathname.replace('.html', '');
             }
+                
             fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
         </script>
         <h1 class = "title1">Bryce Canyon National Park</h1>
@@ -25,22 +27,23 @@
         <div class = "container">
             <div class = "imgtype3"><img src = "images/IMG_4222.JPG" class = "img3"><p class= "caption">Sunrise Point</p></div>
             <div class = "imgtype3"><img src = "images/IMG_4244.JPG" class = "img3"><p class= "caption">Lower Inspiration Point</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_4188.JPG" class = "img3"><p class= "caption">Queen's Garden Trail</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_4252.JPG" class = "img3"><p class= "caption">Inspiration Point</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_4257.JPG" class = "img3"><p class= "caption">Bryce Point</p></div>
         </div>
         
 
 
-        
-            
         <p class="text3">Bryce Canyon offers plenty of gorgeous viewpoints, including 
-            Inspiration point (Left), Bryce point (center), and Sunrise point (right) that provide
+            Inspiration point, Bryce point, and Sunrise point that provide
             awesome views of the natural amphitheater just off the road.
         </p>
 
         <div class = "container">
-            
             <div class = "imgtype3"><img src = "images/IMG_4245.JPG" class = "img3"  ><p class= "caption">Inspiration Point</p></div>
             <div class = "imgtype3"><img src = "images/IMG_4260.JPG" class = "img3"  ><p class= "caption">Bryce Point</p></div>
             <div class = "imgtype3"><img src = "images/IMG_4234.JPG" class = "img3"  ><p class= "caption">Sunrise Point</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_4258.JPG" class = "img3"  ><p class= "caption">Bryce Point</p></div>
         </div>
 
 
@@ -53,10 +56,12 @@
 
         
         <div class = "container">
-            <div class = "imgtype3"><img src = "images/IMG_4179.JPG" class = "img3"  ><p class= "caption">Queens Garden (Photo #1)</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_4180.JPG" class = "img3"  ><p class= "caption">Queens Garden (Photo #2)</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_4185.JPG" class = "img3"  ><p class= "caption">Queens Garden (Photo #3)</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_4212.JPG" class = "img3"  ><p class= "caption">Queens Garden (Photo #4)</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_4179.JPG" class = "img3"  ><p class= "caption">Queens Garden Trail</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_4180.JPG" class = "img3"  ><p class= "caption">Queens Garden Trail</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_4185.JPG" class = "img3"  ><p class= "caption">Queens Garden Trail</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_4212.JPG" class = "img3"  ><p class= "caption">Queens Garden Trail</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_4189.JPG" class = "img3"  ><p class= "caption">Queens Garden Trail</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_4200.JPG" class = "img3"  ><p class= "caption">Queens Garden Trail</p></div>
         </div>
        
     </body>

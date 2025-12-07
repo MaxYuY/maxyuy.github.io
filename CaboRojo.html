@@ -9,21 +9,26 @@
     <body>
         <div id="navbar"></div>
         <script>
+            /*
             if (window.location.pathname.endsWith('.html')) {
                 window.location.href = window.location.pathname.replace('.html', '');
-            }
+            }*/
+
             fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
         </script>
         <h1 class = "title1">Cabo Rojo</h1>
             
-        <p class="text3"> Cabo Rojo is probably the most underrated natural attraction 
+        <p class="text3">Cabo Rojo is one of the most underrated natural attraction 
             in Puerto Rico. With stunning cliff, beach, and ocean views, the area is full of 
-            pleasant surprises. 
+            surprises. 
         </p>
           
         <div class = "container">
             <div class = "imgtype3"><img src = "images/IMG_7031.JPG" class = "img3"><p class= "caption">Cliffs</p></div>
             <div class = "imgtype3"><img src = "images/IMG_7052.JPG" class = "img3"><p class= "caption">Playa Sucia</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_6954.JPG" class = "img3"><p class= "caption">Salt Flats</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_6993.JPG" class = "img3" ><p class= "caption">White-Cheeked Pintails</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_6963.JPG" class = "img3"><p class= "caption">Salt Flats</p></div>
         </div>
         
 
@@ -36,19 +41,14 @@
         </p>
 
         <div class = "container">
-            <div class = "imgtype3"><img src = "images/IMG_6954.JPG" class = "img3"><p class= "caption">Cabo Rojo Salt Flats</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_6958.JPG" class = "img3" ><p class= "caption">Cabo Rojo Salt Flats</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_6956.JPG" class = "img3" ><p class= "caption">Cabo Rojo Salt Flats</p></div>
-        </div>
-        <div class = "container">
-            <div class = "imgtype3"><img src = "images/IMG_7038.JPG" class = "img3" ><p class= "caption">Cabo Rojo Seacliffs</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_7021.JPG" class = "img3" ><p class= "caption">Cabo Rojo Seacliffs</p></div>
+            
             <div class = "imgtype3"><img src = "images/IMG_7044.JPG" class = "img3" ><p class= "caption">Cabo Rojo Seacliffs</p></div>
-        </div>
-        <div class = "container">
-            <div class = "imgtype3"><img src = "images/IMG_6993.JPG" class = "img3" ><p class= "caption">White Cheeked Pintails</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_6958.JPG" class = "img3" ><p class= "caption">Cabo Rojo Salt Flats</p></div>
             <div class = "imgtype3"><img src = "images/IMG_6988.JPG" class = "img3" ><p class= "caption">White Cheeked Pintails</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_6989.JPG" class = "img3" ><p class= "caption">White Cheeked Pintails</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_7038.JPG" class = "img3" ><p class= "caption">Cabo Rojo Seacliffs</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_6956.JPG" class = "img3" ><p class= "caption">Cabo Rojo Salt Flats</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_7021.JPG" class = "img3" ><p class= "caption">Cabo Rojo Seacliffs</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_6989.JPG" class = "img3" ><p class= "caption">White Cheeked Pintails</p></div>
         </div>
     </body>
     <div id="footer"></div>
