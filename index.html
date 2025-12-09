@@ -11,7 +11,16 @@
     <body>
         <div id="navbar"></div>
         <script>
-            fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
+            function convertToText(response){
+                return response.text()
+            }
+            function setNavBar(data){
+                document.getElementById('navbar').innerHTML = data;
+            }
+            let fetchNav = fetch('/navbar.html');
+            let convertedToText = fetchNav.then(convertToText);
+            convertedToText.then(setNavBar);
+           // fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
             
         </script>
     

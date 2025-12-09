@@ -9,9 +9,11 @@
     <body>
         <div id="navbar"></div>
         <script>
+            
             if (window.location.pathname.endsWith('.html')) {
                 window.location.href = window.location.pathname.replace('.html', '');
             }
+                
             fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
         </script>
         <h1 class = "title1">Canyonlands National Park</h1>
@@ -21,8 +23,12 @@
         </p>
          
         <div class = "container">
-            <div class = "imgtype3"><img src = "images/IMG_5227.JPG" class = "img3" ><p class= "caption">La Sal Mountains Viewpoint</p></div>
+            
             <div class = "imgtype3"><img src = "images/IMG_5229.JPG" class = "img3" ><p class= "caption">Shafer Canyon Overlook</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_5227.JPG" class = "img3" ><p class= "caption">La Sal Mountains</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_5242.JPG" class = "img3" ><p class= "caption">Canyon + Mountains</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_5223.JPG" class = "img3" ><p class= "caption">Mesa Arch</p></div>
+            
         </div>
         
 
@@ -38,6 +44,7 @@
             <div class = "imgtype3"><img src = "images/IMG_5115.JPG" class = "img3" ><p class= "caption">Shafer Canyon Overlook</p></div>
             <div class = "imgtype3"><img src = "images/IMG_5117.JPG" class = "img3" ><p class= "caption">Green River Overlook</p></div>
             <div class = "imgtype3"><img src = "images/IMG_5156.JPG" class = "img3" ><p class= "caption">Grand View Overlook</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_5235.JPG" class = "img3" ><p class= "caption">Shafer Canyon View</p></div>
         </div>
 
         
@@ -52,6 +59,9 @@
             <div class = "imgtype3"><img src = "images/IMG_5219.JPG" class = "img3" ><p class= "caption">Mesa Arch</p></div>
             <div class = "imgtype3"><img src = "images/IMG_5214.JPG" class = "img3" ><p class= "caption">Mesa Arch</p></div>
             <div class = "imgtype3"><img src = "images/IMG_5128.JPG" class = "img3" ><p class= "caption">Upheaval Dome</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_5225.JPG" class = "img3" ><p class= "caption">Mesa Arch</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_5130.JPG" class = "img3" ><p class= "caption">Upheaval Dome</p></div>
+
         </div>
 
 
@@ -65,6 +75,7 @@
             <div class = "imgtype3"><img src = "images/IMG_5245.JPG" class = "img3" ><p class= "caption">Dead Horse Canyon</p></div>
             <div class = "imgtype3"><img src = "images/IMG_5253.JPG" class = "img3" ><p class= "caption">Dead Horse Canyon</p></div>
             <div class = "imgtype3"><img src = "images/IMG_5260.JPG" class = "img3" ><p class= "caption">Dead Horse Canyon</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_5244.JPG" class = "img3" ><p class= "caption">Dead Horse Canyon</p></div>
         </div>
 
             
@@ -74,10 +85,10 @@
         </p> 
 
         <div class = "container">
-            <div class = "imgtype3"><img src = "images/IMG_5184.JPG" class = "img3" ><p class= "caption">Chipmunk, Upheaval Dome</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_5202.JPG" class = "img3" ><p class= "caption">Chipmunk, White Rim Overlook</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_5204.JPG" class = "img3" ><p class= "caption">Chipmunk, White Rim Overlook</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_5208.JPG" class = "img3" ><p class= "caption">Lizard, Upheaval Dome</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_5184.JPG" class = "img3" ><p class= "caption">Chipmunk</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_5202.JPG" class = "img3" ><p class= "caption">Chipmunk</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_5208.JPG" class = "img3" ><p class= "caption">Lizard</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_5204.JPG" class = "img3" ><p class= "caption">Chipmunk</p></div>
         </div>
     </body>
 
