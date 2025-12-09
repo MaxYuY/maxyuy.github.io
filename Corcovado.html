@@ -9,9 +9,10 @@
     <body>
         <div id="navbar"></div>
         <script>
+            /*
             if (window.location.pathname.endsWith('.html')) {
                 window.location.href = window.location.pathname.replace('.html', '');
-            }
+            }*/
             fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
         </script>
         <h1 class = "title1">Corcovado National Park</h1>
@@ -25,6 +26,8 @@
         <div class = "container">
             <div class = "imgtype3"><img src = "images/IMG_0223.jpg" class = "img3" style = " object-position: center 100%;"><p class= "caption">Sirena Beach</p></div>
             <div class = "imgtype3"><img src = "images/IMG_0176.jpg" class = "img3"><p class= "caption">Bahia Drake</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_0741.JPG" class = "img3" ><p class= "caption">Massive Tapir</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_0932.jpg" class = "img3"><p class= "caption">Rainforest</p></div>
         </div>
         
             
@@ -34,7 +37,9 @@
 
         <div class = "container">
             <div class = "imgtype3"><img src = "images/IMG_0183.jpg" class = "img3" ><p class= "caption">Drake Bay Beach</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_0177.jpg" class = "img3" ><p class= "caption">Bahia Drake</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_02241.jpg" class = "img3" ><p class= "caption">Playa Sirena</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_0180.jpg" class = "img3" ><p class= "caption">Bahia Drake</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_0177.jpg" class = "img3" ><p class= "caption">Bahia Drake</p></div>
             
         </div>
 
@@ -49,13 +54,10 @@
 
         <div class = "container">
             <div class = "imgtype3"><img src = "images/IMG_0738.JPG" class = "img3" ><p class= "caption">Massive Tapir</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_0741.JPG" class = "img3" ><p class= "caption">Massive Tapir</p></div>
             <div class = "imgtype3"><img src = "images/IMG_0955.JPG" class = "img3" style = " object-position: center 90%;"><p class= "caption">2 Tapirs swimming!</p></div>
-        </div>
-        <div class = "container">
             <div class = "imgtype3"><img src = "images/IMG_0943.JPG" class = "img3" ><p class= "caption">2 Coatis</p></div>
             <div class = "imgtype3"><img src = "images/Coati.jpg" class = "img3" ><p class= "caption">Coati in a tree</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_0711.JPG" class = "img3" ><p class= "caption">2 Coatis</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_0711.JPG" class = "img3" ><p class= "caption">2 Coatis</p></div>
         </div>
         
         
@@ -68,13 +70,11 @@
 
         <div class = "container">
             <div class = "imgtype3"><img src = "images/IMG_0724.JPG" class = "img3" ><p class= "caption">Spider Monkey & Baby</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_0856.JPG" class = "img3" ><p class= "caption">Spider Monkey in a tree</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_0857.JPG" class = "img3"><p class= "caption">Spider Monkey near Sirena Beach</p></div>
-        </div>
-        <div class = "container">
             <div class = "imgtype3"><img src = "images/DSC08814.JPG" class = "img3" ><p class= "caption">2 Anteaters</p></div>
             <div class = "imgtype3"><img src = "images/IMG_0688.JPG" class = "img3" ><p class= "caption">3-Toed Sloth</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_0907.JPG" class = "img3" ><p class= "caption">Agouti</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_0856.JPG" class = "img3" ><p class= "caption">Spider Monkey</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_0857.JPG" class = "img3"><p class= "caption">Spider Monkey</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_0907.JPG" class = "img3" ><p class= "caption">Agouti</p></div>
         </div>
 
             
@@ -86,6 +86,7 @@
             <div class = "imgtype3"><img src = "images/IMG_0779.JPG" class = "img3" ><p class= "caption">Scarlet Macaw</p></div>
             <div class = "imgtype3"><img src = "images/IMG_0870.JPG" class = "img3" ><p class= "caption">Lizards</p></div>
             <div class = "imgtype3"><img src = "images/IMG_0696.JPG" class = "img3"><p class= "caption">Iguana</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_0780.JPG" class = "img3" ><p class= "caption">Scarlet Macaw</p></div>
         </div>
     </body>
     <div id="footer"></div>
