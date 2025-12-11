@@ -9,9 +9,11 @@
     <body>
         <div id="navbar"></div>
         <script>
+            
             if (window.location.pathname.endsWith('.html')) {
                 window.location.href = window.location.pathname.replace('.html', '');
             }
+                
             fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
         </script>
         <h1 class = "title1">Grand Canyon National Park</h1>
@@ -24,6 +26,8 @@
         <div class = "container">
             <div class = "imgtype3"><img src = "images/IMG_4690.JPG" class = "img3" ><p class= "caption">Mather Point</p></div>
             <div class = "imgtype3"><img src = "images/IMG_4717.JPG" class = "img3" ><p class= "caption">Lipan Point</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_4693.JPG" class = "img3" ><p class= "caption">Duck-on-a-rock View</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_3764.JPG" class = "img3" ><p class= "caption">View from the air</p></div>
         </div>
             
         <p class="text3">The viewpoints from the East entrance of the South Rim of the park are absolutely 
@@ -32,21 +36,24 @@
         </p>
 
         <div class = "container">
-            
             <div class = "imgtype3"><img src = "images/IMG_4728.JPG" class = "img3" ><p class= "caption">Lipan Point</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_4648.JPG" class = "img3" ><p class= "caption">Desert View Point</p></div>
             <div class = "imgtype3"><img src = "images/IMG_4706.JPG" class = "img3" ><p class= "caption">Lipan Point</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_4721.JPG" class = "img3" ><p class= "caption">Desert View Point</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_4721.JPG" class = "img3" ><p class= "caption">Lipan Point</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_4703.JPG" class = "img3" ><p class= "caption">Lipan Point</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_4655.JPG" class = "img3" ><p class= "caption">Desert View Point</p></div>
         </div>
             
         <p class="text3">Deeper into the South Rim of the park lay some of the most gorgeous views of the Grand Canyon. 
-            Overlooks such as Yavapai and Mather Points are some of the best in the park, 
+            Overlooks such as Yavapai, Mather, and Duck-On-A-Rock Viewpoints are some of the best in the park, 
             displaying the sheer scale of America's greatest natural wonder. 
         </p> 
 
         <div class = "container">
             <div class = "imgtype3"><img src = "images/IMG_4669.JPG" class = "img3" ><p class= "caption">Yavapai Point</p></div>
             <div class = "imgtype3"><img src = "images/IMG_4685.JPG" class = "img3" ><p class= "caption">Mather Point</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_4694.JPG" class = "img3" ><p class= "caption">Yavapai Point</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_4694.JPG" class = "img3" ><p class= "caption">Duck-on-a-rock View</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_4679.JPG" class = "img3" ><p class= "caption">Yavapai Point</p></div>
         </div>
     </body>
     <div id="footer"></div>
