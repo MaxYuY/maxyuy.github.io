@@ -8,10 +8,10 @@
     </head>
     <body>
         <div id="navbar"></div>
-        <script>/*
+        <script>
             if (window.location.pathname.endsWith('.html')) {
                 window.location.href = window.location.pathname.replace('.html', '');
-            }*/
+            }
             fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
         </script>
         <h1 class = "title1">Yulong Snow Mountain</h1>
