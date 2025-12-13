@@ -9,9 +9,9 @@
     <body>
         <div id="navbar"></div>
         <script>
-            if (window.location.pathname.endsWith('.html')) {
+           /* if (window.location.pathname.endsWith('.html')) {
                 window.location.href = window.location.pathname.replace('.html', '');
-            }
+            }*/
             fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
         </script>
          <h1 class = "title1">Mt. Evans Scenic Byway</h1>
@@ -24,6 +24,9 @@
         <div class = "container">
             <div class = "imgtype3"><img src = "images/IMG_7883.JPG" class = "img3" style = " object-position: center 100%;"><p class= "caption">Summit Lake View</p></div>
             <div class = "imgtype3"><img src = "images/IMG_7917.JPG" class = "img3" style = " object-position: center 100%;"><p class= "caption">View from the top</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_7937.JPG" class = "img3" style = " object-position: center 100%;"><p class= "caption">Mountain Goat</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_7892.JPG" class = "img3" style = " object-position: center 100%;"><p class= "caption">Bighorn Sheep</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_8047.JPG" class = "img3" style = " object-position: center 100%;"><p class= "caption">Mountain Goat</p></div>
         </div>
             
         <p class="text3">The hiking at the top of the mountain is absolutely stunning, bringing great views of 
@@ -32,9 +35,10 @@
 
         <div class = "container">
             
-            <div class = "imgtype3"><img src = "images/IMG_8088.JPG" class = "img3" ><p class= "caption">View from Summit Lake</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_8023.JPG" class = "img3" ><p class= "caption">Summit Lake from above</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_7967.JPG" class = "img3" ><p class= "caption">Surrounding Colorado peaks</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_8088.JPG" class = "img3" ><p class= "caption">View of Summit Lake</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_8023.JPG" class = "img3" ><p class= "caption">Summit Lake</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_7967.JPG" class = "img3" ><p class= "caption">Colorado peaks</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_8082.JPG" class = "img3" ><p class= "caption">View of the summit</p></div>
         </div>
 
         <p class="text3">While the mountain and alpine views are certainly spectacular, the wildlife along the byway is 
@@ -50,12 +54,10 @@
             <div class = "imgtype3"><img src = "images/IMG_7927.JPG" class = "img3" ><p class= "caption">Mountain Goat</p></div>
             <div class = "imgtype3"><img src = "images/IMG_7924.JPG" class = "img3" ><p class= "caption">Mountain Goat Lamb</p></div>
             <div class = "imgtype3"><img src = "images/IMG_8051.JPG" class = "img3" ><p class= "caption">Mountain Goat Lamb</p></div>
-        </div>
-        <div class = "container">
             <div class = "imgtype3"><img src = "images/IMG_7889.JPG" class = "img3" ><p class= "caption">Bighorn Sheep herd</p></div>
             <div class = "imgtype3"><img src = "images/IMG_7907.JPG" class = "img3" ><p class= "caption">Bighorn Sheep herd</p></div>
             <div class = "imgtype3"><img src = "images/IMG_8021.JPG" class = "img3" ><p class= "caption">Marmot at the summit</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_8011.JPG" class = "img3" ><p class= "caption">Marmot on the trail</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_8011.JPG" class = "img3" ><p class= "caption">Marmot on the trail</p></div>
         </div>
     </body>
     <div id="footer"></div>

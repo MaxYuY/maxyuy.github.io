@@ -9,9 +9,11 @@
     <body>
         <div id="navbar"></div>
         <script>
+            /*
             if (window.location.pathname.endsWith('.html')) {
                 window.location.href = window.location.pathname.replace('.html', '');
             }
+                */
             fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
         </script>
         <h1 class = "title1">Manuel Antonio National Park</h1>
@@ -22,8 +24,11 @@
         </p>
 
         <div class = "container">
-            <div class = "imgtype3"><img src = "images/IMG_0541.JPG" class = "img3" ><p class= "caption">Manuel Antonio Rainforest</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_0541.JPG" class = "img3" ><p class= "caption">Rainforest</p></div>
             <div class = "imgtype3"><img src = "images/IMG_0579.JPG" class = "img3"><p class= "caption">Iguana</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_0619.JPG" class = "img3"><p class= "caption">3-Toed Sloth</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_0548.JPG" class = "img3"><p class= "caption">Rainforest Snake</p></div>
+        </div>
         </div>
         
             
@@ -38,13 +43,10 @@
         <div class = "container">
             <div class = "imgtype3"><img src = "images/IMG_0629.JPG" class = "img3" ><p class= "caption">3-Toed Sloth</p></div>
             <div class = "imgtype3"><img src = "images/IMG_0632.JPG" class = "img3" ><p class= "caption">3-Toed Sloth</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_1029.JPG" class = "img3" ><p class= "caption">White-Tailed Deer</p></div>
-        </div>
-        <div class = "container">
-            
+            <div class = "imgtype3"><img src = "images/IMG_1029.JPG" class = "img3" ><p class= "caption">Deer</p></div>
             <div class = "imgtype3"><img src = "images/IMG_0640.JPG" class = "img3" ><p class= "caption">Squirrel Monkey</p></div>
             <div class = "imgtype3"><img src = "images/IMG_0642.JPG" class = "img3" ><p class= "caption">Squirrel Monkey</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_0595.JPG" class = "img3" ><p class= "caption">Howler Monkey</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_0595.JPG" class = "img3" ><p class= "caption">Howler Monkey</p></div>
         </div>
 
 
@@ -56,15 +58,12 @@
 
         
         <div class = "container">
-            <div class = "imgtype3"><img src = "images/IMG_0530.JPG" class = "img3" ><p class= "caption">Parakeet</p></div>
             <div class = "imgtype3"><img src = "images/IMG_0593.JPG" class = "img3" ><p class= "caption">Potoo</p></div>
             <div class = "imgtype3"><img src = "images/IMG_1042.JPG" class = "img3" ><p class= "caption">Gladiator Frog</p></div>
-        </div>
-        <div class = "container">
-            
             <div class = "imgtype3"><img src = "images/IMG_0581.JPG" class = "img3" ><p class= "caption">Iguana</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_0530.JPG" class = "img3" ><p class= "caption">Parakeet</p></div>
             <div class = "imgtype3"><img src = "images/IMG_1072.JPG" class = "img3" ><p class= "caption">Iguana</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_0670.JPG" class = "img3" ><p class= "caption">Crocodile</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_0670.JPG" class = "img3" ><p class= "caption">Crocodile</p></div>
         </div>
     </body>
     <div id="footer"></div>

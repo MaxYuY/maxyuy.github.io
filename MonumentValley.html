@@ -9,9 +9,9 @@
     <body>
         <div id="navbar"></div>
         <script>
-            if (window.location.pathname.endsWith('.html')) {
+            /*if (window.location.pathname.endsWith('.html')) {
                 window.location.href = window.location.pathname.replace('.html', '');
-            }
+            }*/
             fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
         </script>
         <h1 class = "title1">Monument Valley</h1>
@@ -21,8 +21,11 @@
         </p>
 
         <div class = "container">
-            <div class = "imgtype3"><img src = "images/IMG_4806.JPG" class = "img3" style = " object-position: center 100%;"><p class= "caption">Scenic Drive</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_4766.JPG" class = "img3" ><p class= "caption">Desert View</p></div>
             <div class = "imgtype3"><img src = "images/IMG_4819.JPG" class = "img3"><p class= "caption">Valley Overlook</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_4802.JPG" class = "img3"><p class= "caption">Grand overlook</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_4759.JPG" class = "img3"><p class= "caption">Intro View</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_4842.JPG" class = "img3"><p class= "caption">Iconic Road</p></div>
         </div>
         
 
@@ -31,16 +34,12 @@
         </p>
 
         <div class = "container">
-            
-            <div class = "imgtype3"><img src = "images/IMG_4766.JPG" class = "img3" ><p class= "caption">Desert View</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_4806.JPG" class = "img3" ><p class= "caption">Scenic Drive</p></div>
             <div class = "imgtype3"><img src = "images/IMG_4776.JPG" class = "img3" ><p class= "caption">Desert formations</p></div>
             <div class = "imgtype3"><img src = "images/IMG_4778.JPG" class = "img3" ><p class= "caption">Scenic Drive</p></div>
-        </div>
-
-        <div class = "container">
             <div class = "imgtype3"><img src = "images/IMG_4792.JPG" class = "img3" ><p class= "caption">Desert Surroundings</p></div>
             <div class = "imgtype3"><img src = "images/IMG_4813.JPG" class = "img3" ><p class= "caption">Buttes and Spires</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_4826.JPG" class = "img3" ><p class= "caption">Final Overlook</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_4826.JPG" class = "img3" ><p class= "caption">Final Overlook</p></div>
         </div>
     </body>
     <div id="footer"></div>
