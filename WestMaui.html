@@ -8,10 +8,10 @@
     </head>
     <body>
         <div id="navbar"></div>
-        <script>
+        <script>/*
             if (window.location.pathname.endsWith('.html')) {
                 window.location.href = window.location.pathname.replace('.html', '');
-            }
+            }*/
             fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
         </script>
         <h1 class = "title1">West Maui Mountains</h1>
@@ -23,6 +23,9 @@
         <div class = "container">
             <div class = "imgtype3"><img src = "images/IMG_9335.JPG" class = "img3" style = "object-position: center 100%;"><p class= "caption">Kahalui & Haleakala</p></div>
             <div class = "imgtype3"><img src = "images/IMG_9404.JPG" class = "img3"><p class= "caption">Waihe'e Ridge Trail</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_9867.JPG" class = "img3" ><p class= "caption">Olivine Pools</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_9274.JPG" class = "img3" ><p class= "caption">Nakalele Blowhole</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_9834.JPG" class = "img3" ><p class= "caption">West Coast</p></div>
         </div>
         
         <p class="text3">The main hike I did here was the roughly 4 mile Waihe'e Ridge Trail, 
@@ -31,9 +34,10 @@
         </p>
 
         <div class = "container">
-            <div class = "imgtype3"><img src = "images/IMG_9374.JPG" class = "img3" ><p class= "caption">West Maui Mountain Range</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_9374.JPG" class = "img3" ><p class= "caption">West Maui Mountains</p></div>
             <div class = "imgtype3"><img src = "images/IMG_9385.JPG" class = "img3" ><p class= "caption">Northwestern Coast</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_9401.JPG" class = "img3" ><p class= "caption">View of Kahalui and Mt. Haleakala</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_9401.JPG" class = "img3" ><p class= "caption">View of Haleakala</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_9341.JPG" class = "img3" ><p class= "caption">Mountain Greenery</p></div>
         </div>
 
         <p class="text3">Besides Waihe'e Ridge, West Maui is also home to some coastal wonders, such as the Nakalele Blowhole
@@ -42,13 +46,10 @@
 
         <div class = "container">
             <div class = "imgtype3"><img src = "images/IMG_9273.JPG" class = "img3" ><p class= "caption">Nakalele Blowhole</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_9274.JPG" class = "img3" ><p class= "caption">Nakalele Blowhole</p></div>
             <div class = "imgtype3"><img src = "images/IMG_9285.JPG" class = "img3" ><p class= "caption">Blowhole View</p></div>
-        </div>
-        <div class = "container">
             <div class = "imgtype3"><img src = "images/IMG_9846.JPG" class = "img3" ><p class= "caption">Olivine Pools</p></div>
             <div class = "imgtype3"><img src = "images/IMG_98751.JPG" class = "img3" ><p class= "caption">Olivine Pools</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_9847.JPG" class = "img3" ><p class= "caption">Olivine Pools View</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_9847.JPG" class = "img3" ><p class= "caption">Olivine Pools View</p></div>
         </div>
     </body>
     <div id="footer"></div>

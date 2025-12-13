@@ -8,10 +8,10 @@
     </head>
     <body>
         <div id="navbar"></div>
-        <script>
+        <script>/*
             if (window.location.pathname.endsWith('.html')) {
                 window.location.href = window.location.pathname.replace('.html', '');
-            }
+            }*/
             fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
         </script>
         <h1 class = "title1">Zion National Park</h1>
@@ -25,6 +25,8 @@
         <div class = "container">
             <div class = "imgtype3"><img src = "images/IMG_3844.JPG" class = "img3" style = "object-position: center 75%;"><p class= "caption">Pa'rus Trail</p></div>
             <div class = "imgtype3"><img src = "images/IMG_4018.JPG" class = "img3" style = "object-position: center 18%;"><p class= "caption">Angels Landing</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_4107.JPG" class = "img3" style = "object-position: center 75%;"><p class= "caption">Sunset View</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_4065.JPG" class = "img3" style = "object-position: center 18%;"><p class= "caption">Scout Lookout</p></div>
         </div>
         
 
@@ -40,7 +42,10 @@
             
             <div class = "imgtype3"><img src = "images/IMG_3862.JPG" class = "img3" ><p class= "caption">Pa'rus Trail</p></div>
             <div class = "imgtype3"><img src = "images/IMG_3877.JPG" class = "img3" ><p class= "caption">Watchman Peak</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_3860.JPG" class = "img3" ><p class= "caption">Pa'rus Trail View</p></div>
             <div class = "imgtype3"><img src = "images/IMG_3887.JPG" class = "img3" ><p class= "caption">Canyon Overlook</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_3900.JPG" class = "img3" ><p class= "caption">Canyon Overlook</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_3894.JPG" class = "img3" ><p class= "caption">Canyon Mountains</p></div>
         </div>
 
 
@@ -55,11 +60,8 @@
         <div class = "container">
             <div class = "imgtype3"><img src = "images/IMG_3944.JPG" class = "img3" ><p class= "caption">Riverside Walk</p></div>
             <div class = "imgtype3"><img src = "images/IMG_3990.JPG" class = "img3" ><p class= "caption">Emerald Pools Trail</p></div>
-        </div>
-
-        <div class = "container">
             <div class = "imgtype3"><img src = "images/IMG_4046.JPG" class = "img3" ><p class= "caption">Scout Lookout</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_4069.JPG" class = "img3" ><p class= "caption">Scout Lookout</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_4069.JPG" class = "img3" ><p class= "caption">Scout Lookout</p></div>
         </div>
 
 
@@ -71,9 +73,10 @@
         </p> 
 
         <div class = "container">
-            <div class = "imgtype3"><img src = "images/IMG_3912.JPG" class = "img3" ><p class= "caption">Mule Deer, Visitor Center</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_3954.JPG" class = "img3" ><p class= "caption">Squirrel, Riverside Walk</p></div>
-            <div class = "imgtype3"><img src = "images/IMG_3972.JPG" class = "img3" ><p class= "caption">Squirrel, Riverside Walk</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_3912.JPG" class = "img3" ><p class= "caption">Mule Deer</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_3954.JPG" class = "img3" ><p class= "caption">Squirrel</p></div>
+            <div class = "imgtype3"><img src = "images/IMG_3972.JPG" class = "img3" ><p class= "caption">Squirrel</p></div>
+            <div class = "imgtype4"><img src = "images/IMG_3972.JPG" class = "img3" ><p class= "caption">Chipmunk</p></div>
         </div>
     </body>
     <div id="footer"></div>
