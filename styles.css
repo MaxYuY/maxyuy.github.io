@@ -103,6 +103,10 @@ nav{ /*Nav Bar*/
     flex-direction: row;
     padding: 30px 20px;
 }
+.gallerycontainer{
+    display: flex;
+    flex-direction: row;
+}
 
 .container6{ /*container for footer categories*/
     display: flex;
@@ -171,7 +175,9 @@ nav{ /*Nav Bar*/
 }
 
 .img3{ /*Images for destination description*/
-    height: 300px;
+    height: 300px; 
+    width: 100%;
+    object-fit: cover;
 }
 
 .imgtype4{
