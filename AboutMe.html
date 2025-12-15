@@ -8,10 +8,10 @@
     </head>
     <body> 
         <div id="navbar"></div>
-        <script>
+        <script>/*
             if (window.location.pathname.endsWith('.html')) {
                 window.location.href = window.location.pathname.replace('.html', '');
-            }
+            }*/
             fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
         </script>
 
@@ -22,11 +22,11 @@
         details of my travel experiences and tons of photos of cool places and wildlife. Enjoy!</p>
         
         <div class = "gallerycontainer">
-            <div class = "imgtype1"><img src = "images/IMG_2113.JPG" class = "img3"><p class = "caption">Grizzly Bear, Yellowstone National Park</p></div>
-            <div class = "imgtype1"><img src = "images/IMG_2639.JPG" class = "img3" style = "object-position: center 65%;"><p class = "caption">Lower Falls, Yellowstone National Park</p></div>
+            <div class = "imgtype1"><img src = "images/IMG_2113.JPG" class = "img1" ><p class = "caption">Grizzly Bear</p></div>
+            <div class = "imgtype1"><img src = "images/IMG_2639.JPG" class = "img1" style = "object-position: center 65%; "><p class = "caption">Lower Falls,</p></div>
         </div>
         
-        <h1 class= "explore" style = "padding: 30px 30px;"><u>My Favorite Wildlife Photos</u></h1>
+        <h1 class= "explore" style = "padding: 20px 30px;"><u>My Favorite Wildlife Photos</u></h1>
         <div class = "gallerycontainer">
             <div class = "imgtype1"><img src = "images/IMG_0738.JPG" class = "img1"><p class = "caption">Tapir, Corcovado NP</p></div>
             <div class = "imgtype1"><img src = "images/IMG_3559.JPG" class = "img1"><p class = "caption">Barred Owl, North Carolina</p></div>

@@ -162,7 +162,7 @@ nav{ /*Nav Bar*/
 /*images*/
 .imgtype1{  /*Image "holder" for gallery photos*/
     flex:1;
-    padding: 0px 20px 30px 20px;
+    padding: 0px 20px 20px 20px;
 }
 
 .img1{ /*Photo Galleries*/
@@ -402,7 +402,7 @@ footer p{ /*Italicized xbtravel at te bottom*/
     }
 
     .img1{
-        height: 80px;
+        height: 85px;
     } 
     .img3{
         width: 122px;
