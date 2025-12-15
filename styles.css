@@ -99,10 +99,18 @@ nav{ /*Nav Bar*/
     margin-bottom: 12px;
 }
 .container2{ /*contains all the cards*/
+    /*display: flex;
+    flex-direction: row;*/
+    padding: 30px 20px;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.canadacontainer{
     display: flex;
     flex-direction: row;
     padding: 30px 20px;
 }
+
 .gallerycontainer{
     display: flex;
     flex-direction: row;
@@ -165,7 +173,7 @@ nav{ /*Nav Bar*/
 
 .img2{ /*images for cards*/
     width: 100%;
-    height: 200px;
+    height: 217px;
     object-fit: cover;
 }
 
@@ -215,14 +223,16 @@ nav{ /*Nav Bar*/
 
 /*cards*/
 .card{ /*Cards, a subcontainer inside container2*/
-    flex: 1;
+    display: inline-block;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+    margin: 8px;
+    background-color: white;
+    align-items: center;
+}
+.cardcontainer{
     display: flex;
     flex-direction: column;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
-    margin: 10px;
-    background-color: white;
 }
-
 .card:hover{
     box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.8);
 }
@@ -232,6 +242,7 @@ nav{ /*Nav Bar*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 24px;
     color: black;
+    
 }
 
 .card p{ /*Destination description inside card*/
@@ -239,6 +250,7 @@ nav{ /*Nav Bar*/
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
+    white-space: wrap;
 }
 
 
@@ -364,13 +376,18 @@ footer p{ /*Italicized xbtravel at te bottom*/
         height: 80px;
     } 
     .img3{
+        width: 122px;
         height: 92px;
     }
     
-    
+   
     .container2{
+        display: flex;
         flex-direction: column;
         padding: 10px 20px;
+    }
+    .canadacontainer{
+        flex-direction: column;
     }
     .container6{
         flex-direction: column;

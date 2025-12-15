@@ -9,9 +9,10 @@
     <body>
         <div id="navbar"></div>
         <script>
+            /*
             if (window.location.pathname.endsWith('.html')) {
                 window.location.href = window.location.pathname.replace('.html', '');
-            }
+            }*/
             fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
         </script>
         <h1 class = "title1" style = "padding-bottom: 30px;">Canada</h1>
@@ -51,28 +52,22 @@
 
          <!--Favorite Places-->
         <p class = "explore" style = "background-color: rgb(225, 225, 225);">My Favorite Places</p>
-        <div class = "container2" style = "background-color: rgb(225, 225, 225);">
-            <div class = "card">
-                <img src = "images/IMG_6096.JPG" class = "img2" style = "object-position: center 55%;">
+        <div class = "canadacontainer" style = "background-color: rgb(225, 225, 225);" >
+            <div class = "card" style = "display: flex; flex-direction: column; flex: 1;">
+                <img src = "images/IMG_6096.JPG" class = "img2" style = "width: 100%; height: 200px; object-fit: cover;">
                 <a href = "VancouverIsland.html"><b>Vancouver Island</b></a>
                 <p>A beautiful and remote island full of stunning scenery and wildlife</p>
             </div>
-
-            <div class = "card">
-                <img src = "images/IMG_5787.JPG" class = "img2" style = "object-position: center 55%;">
+            <div class = "card" style = "display: flex; flex-direction: column; flex: 1;">
+                <img src = "images/IMG_5787.JPG" class = "img2" style = "width: 100%; height: 200px; object-fit: cover;">
                 <a href = "Vancouver.html"><b>Vancouver</b></a>
-                <p>Canada's pacific metropolis with one of the best skylines of any city
-                </p>
+                <p>Canada's pacific metropolis with one of the best skylines of any city</p>
             </div>
-
-            <div class = "card">
-                <img src = "images/IMG_3947.jpg" class = "img2" style = "object-position: center 45%;">
+            <div class = "card" style = "display: flex; flex-direction: column; flex: 1;">
+                <img src = "images/IMG_3947.JPG" class = "img2" style = "width: 100%; height: 200px; object-fit: cover;">
                 <a href = "Toronto.html"><b>Toronto</b></a>
-                <p>Canada's bustling largest city: One of my favorite cities in the world</p>   
+                <p>Canada's bustling largest city: One of my favorite cities in the world</p>
             </div>
-            
-
-           
 
         </div>
         

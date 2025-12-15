@@ -8,10 +8,10 @@
     </head>
     <body>
         <div id="navbar"></div>
-        <script>
+        <script>/*
             if (window.location.pathname.endsWith('.html')) {
                 window.location.href = window.location.pathname.replace('.html', '');
-            }
+            }*/
             fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
         </script>
         <h1 class = "title1" style = "padding-bottom: 30px;">Latin America</h1>
@@ -53,19 +53,19 @@
         <p class = "explore" style = "background-color: rgb(225, 225, 225);">My Favorite Places</p>
         <div class = "container2" style = "background-color: rgb(225, 225, 225);">
             <div class = "card">
-                <img src = "images/IMG_0182.jpg" class = "img2" style = "object-position: center 40%;">
+                <div class = "imgtype2"><img src = "images/IMG_0182.jpg" class = "img2" style = "object-position: center 40%;"></div>
                 <a href = "Corcovado.html"><b>Corcovado NP</b></a>
                 <p> One of the best places in the entire world to see animals in the wild</p>
             </div>
 
             <div class = "card">
-                <img src = "images/IMG_0541.JPG" class = "img2" style = "object-position: center 80%;">
+                <div class = "imgtype2"><img src = "images/IMG_0541.JPG" class = "img2" style = "object-position: center 80%;"></div>
                 <a href = "ManuelAntonio.html"><b>Manuel Antonio NP</b></a>
                 <p>Most popular national park in Costa Rica: Fantastic for wildlife spotting</p>
             </div>
 
             <div class = "card">
-                <img src = "images/IMG_6741.JPG" class = "img2" style = "object-position: center 80%;">
+                <div class = "imgtype2"><img src = "images/IMG_6741.JPG" class = "img2" style = "object-position: center 80%;"></div>
                 <a href = "Culebra.html"><b>Isla Culebra</b></a>
                 <p>Best snorkeling destination in all of Puerto Rico, Sea Turtles galore
                 </p>

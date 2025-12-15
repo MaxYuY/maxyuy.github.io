@@ -8,10 +8,10 @@
     </head>
     <body>
         <div id="navbar"></div>
-        <script>
+        <script>/*
             if (window.location.pathname.endsWith('.html')) {
                 window.location.href = window.location.pathname.replace('.html', '');
-            }
+            }*/
             fetch('/navbar.html').then(response => response.text()).then(data => {document.getElementById('navbar').innerHTML = data;});
         </script>
         <h1 class = "title1" style = "padding-bottom: 30px;">China</h1>
@@ -37,19 +37,19 @@
         <p class = "explore" style = "background-color: rgb(225, 225, 225);">My Favorite Places</p>
         <div class = "container2" style = "background-color: rgb(225, 225, 225);">
             <div class = "card">
-                <img src = "images/IMG_5096.JPG" class = "img2">
+                <div class = "imgtype2"><img src = "images/IMG_5096.JPG" class = "img2"></div>
                 <a href = "SummerPalace.html"><b>Summer Palace</b></a>
                 <p>Stunning cultural site and lake in the heartland of China's bustling capital city</p>
             </div>
 
             <div class = "card">
-                <img src = "images/IMG_7036.JPG" class = "img2">
+                <div class = "imgtype2"><img src = "images/IMG_7036.JPG" class = "img2"></div>
                 <a href = "Jiuzhaigou.html"><b>Jiuzhaigou</b></a>
                 <p>Beautiful alpine valley with of gorgeous mountains and crystal blue lakes</p>
             </div>
 
             <div class = "card">
-                <img src = "images/IMG_4647.JPG" class = "img2" style = "object-position: center 80%;">
+                <div class = "imgtype2"><img src = "images/IMG_4647.JPG" class = "img2" style = "object-position: center 80%;"></div>
                 <a href = "Yulong.html"><b>Yulong Snow Mountain</b></a>
                 <p>Nestled over 3000m high home to snow-capped peaks and gorgeous valleys</p>
             </div>
